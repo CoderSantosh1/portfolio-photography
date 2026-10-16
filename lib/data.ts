@@ -191,3 +191,25 @@ export const philosophy = [
 
 export const getCategory = (slug: string) => categories.find((c) => c.slug === slug);
 export const photosIn = (slug: CategorySlug) => photos.filter((p) => p.category === slug);
+
+// About page — short copy, image-led
+export const aboutPage = {
+  heroSlides: [
+    { src: localPhotos.alpineLake, label: "Bernese Alps" },
+    { src: u("1501555088652-021faa106b9b", 2000), label: "On the trail" },
+    { src: localPhotos.mistyMountains, label: "Dolomites" },
+    { src: localPhotos.stormRuins, label: "Peloponnese" },
+  ],
+  collage: {
+    portrait: u("1534528741775-53994a69daeb", 1000),
+    peak: u("1454496522488-7a8e488e8606", 800),
+    camera: u("1495121553079-4c61bcce1894", 900),
+    lake: u("1586348943529-beaae6c28db9", 1000),
+  },
+  quote: ["I don't just take pictures.", "I preserve feelings."],
+  chapters: [
+    { n: "01.", title: "Explore", text: "Chasing light to the quiet edges of the map.", src: u("1501555088652-021faa106b9b", 1000) },
+    { n: "02.", title: "Feel", text: "Waiting for the moment that says everything.", src: u("1508672019048-805c876b67e2", 1000) },
+    { n: "03.", title: "Create", text: "Shaping honest frames that last a lifetime.", src: u("1439853949127-fa647821eba0", 1000) },
+  ],
+};
