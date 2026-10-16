@@ -19,7 +19,7 @@ export const btnArrowDark = "text-lg text-amber transition duration-300 group-ho
 export const textlink =
   "inline-flex items-center gap-2.5 text-[10px] font-bold uppercase tracking-[1.2px] transition-colors";
 
-export const section = `${gutter} py-12 md:py-16`;
+export const section = `${gutter} py-10 md:py-10`;
 
 export const sectionTitle =
   "mt-4 font-serif text-[clamp(30px,3.4vw,46px)] font-medium leading-[1.08] tracking-[-1.2px] [&_em]:font-normal [&_em]:text-rust";

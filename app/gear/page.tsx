@@ -11,7 +11,7 @@ export default function GearPage() {
       <PageHeader
         kicker="GEAR & LENSES"
         title={<>Tools that get<br /><em>out of the way.</em></>}
-        text="A small, trusted kit chosen for quiet operation, beautiful rendering and big archival prints."
+        // text="A small, trusted kit chosen for quiet operation, beautiful rendering and big archival prints."
         image="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=2000&q=85"
       />
       <section className={section}>

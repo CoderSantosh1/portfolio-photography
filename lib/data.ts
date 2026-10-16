@@ -19,10 +19,10 @@ export const artist = {
 };
 
 export const navItems = [
-  { href: "/", label: "Explore & Featured", icon: "✧" },
+  { href: "/", label: "Home", icon: "✧" },
   { href: "/portfolio", label: "Portfolio Gallery", icon: "▦" },
   { href: "/gear", label: "Gear & Lenses", icon: "◎" },
-  { href: "/about", label: "Artist Philosophy", icon: "♙" },
+  { href: "/about", label: "About Me", icon: "♙" },
   { href: "/services", label: "Services & Pricing", icon: "☷" },
   { href: "/booking", label: "Book a Session", icon: "➤" },
 ];
