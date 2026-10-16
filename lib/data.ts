@@ -146,7 +146,7 @@ export const gearExtras = [
 export const services = [
   {
     name: "Portrait Session",
-    price: "€450",
+    price: "450",
     unit: "per session",
     description: "A relaxed, natural-light portrait session for individuals, couples or creatives.",
     features: ["2 hours on location", "1 outfit change", "25 retouched images", "Private online gallery"],
@@ -154,7 +154,7 @@ export const services = [
   },
   {
     name: "Editorial & Brand",
-    price: "€1,200",
+    price: "1,200",
     unit: "half day",
     description: "Story-driven imagery for magazines, brands, campaigns and websites.",
     features: ["4 hours, up to 2 locations", "Creative direction & moodboard", "60 retouched images", "Commercial usage licence"],
@@ -162,7 +162,7 @@ export const services = [
   },
   {
     name: "Fine Art Prints",
-    price: "€180",
+    price: "180",
     unit: "from",
     description: "Museum-grade archival prints of the landscape and nature collections.",
     features: ["Hahnemühle cotton rag paper", "Signed & numbered editions", "Sizes from 30×40 to 100×150 cm", "Worldwide shipping"],

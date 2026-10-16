@@ -14,10 +14,10 @@ export default function PortfolioPage() {
       <PageHeader
         kicker="PORTFOLIO GALLERY"
         title={<>Every frame.<br /><em>Another story.</em></>}
-        text={`${photos.length} photographs across four collections — click any image to view it full screen with location and camera settings.`}
+        // text={`${photos.length} photographs across four collections — click any image to view it full screen with location and camera settings.`}
         image={localPhotos.alpineLake}
       />
-
+ 
       <section className={`${section} grid grid-cols-2 gap-2.5 md:gap-3.5 xl:grid-cols-4`}>
         {categories.map((c) => (
           <Link key={c.slug} href={`/portfolio/${c.slug}`} className="group relative h-[130px] overflow-hidden rounded-[3px] text-white min-[421px]:h-[170px]">
