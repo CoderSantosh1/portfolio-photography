@@ -146,6 +146,9 @@ export const gearExtras = [
 export const services = [
   {
     name: "Portrait Session",
+    tag: "People & Stories",
+    image: u("1544005313-94ddf0286df2", 900),
+    cta: "Enquire",
     price: "450",
     unit: "per session",
     description: "A relaxed, natural-light portrait session for individuals, couples or creatives.",
@@ -154,6 +157,9 @@ export const services = [
   },
   {
     name: "Editorial & Brand",
+    tag: "Brands & Publications",
+    image: u("1458668383970-8ddd3927deed", 900),
+    cta: "Enquire",
     price: "1,200",
     unit: "half day",
     description: "Story-driven imagery for magazines, brands, campaigns and websites.",
@@ -162,6 +168,9 @@ export const services = [
   },
   {
     name: "Fine Art Prints",
+    tag: "Art That Lasts",
+    image: u("1513519245088-0e12902e5a38", 900),
+    cta: "View Prints",
     price: "180",
     unit: "from",
     description: "Museum-grade archival prints of the landscape and nature collections.",
@@ -171,10 +180,10 @@ export const services = [
 ];
 
 export const processSteps = [
-  { n: "01", title: "Hello", text: "Tell me about your idea, date and location." },
-  { n: "02", title: "Plan", text: "We shape a moodboard, timing and light together." },
-  { n: "03", title: "Shoot", text: "A calm, unhurried session — no stiff posing." },
-  { n: "04", title: "Deliver", text: "A curated, hand-edited gallery within 2 weeks." },
+  { n: "01", title: "Let's talk", text: "Tell me about your idea, date and location.", icon: "chat" },
+  { n: "02", title: "Plan together", text: "We shape a moodboard, timing and light.", icon: "plan" },
+  { n: "03", title: "Shoot", text: "A calm, unhurried session — no stiff posing.", icon: "camera" },
+  { n: "04", title: "Receive", text: "A curated, hand-edited gallery within 2 weeks.", icon: "gallery" },
 ];
 
 export const stats = [
@@ -211,5 +220,23 @@ export const aboutPage = {
     { n: "01.", title: "Explore", text: "Chasing light to the quiet edges of the map.", src: u("1501555088652-021faa106b9b", 1000) },
     { n: "02.", title: "Feel", text: "Waiting for the moment that says everything.", src: u("1508672019048-805c876b67e2", 1000) },
     { n: "03.", title: "Create", text: "Shaping honest frames that last a lifetime.", src: u("1439853949127-fa647821eba0", 1000) },
+  ],
+};
+
+// Services page — hero, behind-the-scenes reel and closing banner
+export const servicesPage = {
+  heroImage: localPhotos.alpineLake,
+  behindTheScenes: [
+    { src: u("1554080353-a576cf803bda", 1600), caption: "Golden hour on the waterfront" },
+    { src: u("1471341971476-ae15ff5dd4ea", 1600), caption: "Street editorial, Hong Kong" },
+    { src: u("1520390138845-fd2d229dd553", 1600), caption: "Studio light setup" },
+    { src: u("1542038784456-1ea8e935640e", 1600), caption: "Autumn forest session" },
+  ],
+  processImage: localPhotos.mistyMountains,
+  ctaImage: u("1533240332313-0db49b459ad6", 2000),
+  ctaFacts: [
+    { icon: "pin", title: "Based in Zürich", text: "Available worldwide" },
+    { icon: "camera", title: "Flexible dates", text: "Outdoor & studio sessions" },
+    { icon: "send", title: "Quick response", text: "Usually within 24 hours" },
   ],
 };

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { aboutPage, artist } from "@/lib/data";
-import Reveal from "./Reveal";
+import Reveal from "@/components/motion/Reveal";
 
 // Image zooms out as its tile wipes in, then zooms gently on hover
 const img =

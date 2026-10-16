@@ -31,6 +31,9 @@
   --animate-draw-x: draw-x 1.2s cubic-bezier(.65, 0, .35, 1) both;
   --animate-progress-y: progress-y 6s linear both;
   --animate-cue: cue 2.2s ease-in-out infinite;
+  --animate-pulse-ring: pulse-ring 2s ease-out infinite;
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-nudge: nudge 1.8s ease-in-out infinite;
 
   @keyframes curtain-left { to { transform: translateX(-101%); } }
   @keyframes curtain-right { to { transform: translateX(101%); } }
@@ -42,4 +45,7 @@
   @keyframes draw-x { from { transform: scaleX(0); } to { transform: scaleX(1); } }
   @keyframes progress-y { from { transform: scaleY(0); } to { transform: scaleY(1); } }
   @keyframes cue { 0%, 100% { transform: translateY(0); opacity: .4; } 50% { transform: translateY(8px); opacity: 1; } }
+  @keyframes pulse-ring { from { transform: scale(1); opacity: .7; } to { transform: scale(1.9); opacity: 0; } }
+  @keyframes float { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-6px) rotate(4deg); } }
+  @keyframes nudge { 0%, 100% { transform: translateX(0); opacity: .5; } 50% { transform: translateX(6px); opacity: 1; } }
 }

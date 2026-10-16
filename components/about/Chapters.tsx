@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { aboutPage } from "@/lib/data";
-import Reveal from "./Reveal";
+import Reveal from "@/components/motion/Reveal";
 
 // Explore · Feel · Create — titles only; the one-line story slides in on hover
 export default function Chapters() {

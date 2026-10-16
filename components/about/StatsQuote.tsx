@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { aboutPage, stats } from "@/lib/data";
-import { useInView } from "./useInView";
+import { useInView } from "@/components/motion/useInView";
 
 // Counts from 0 to the target once `start` flips true, keeping leading zeros ("08")
 function CountUp({ value, start }: { value: string; start: boolean }) {
