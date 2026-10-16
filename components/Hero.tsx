@@ -27,11 +27,11 @@ export default function Hero() {
 
   return (
     <section
-      className="relative flex h-[680px] max-h-[88vh] min-h-[610px] items-end overflow-hidden bg-[#111] text-white md:h-[min(78vh,720px)] md:max-h-none md:min-h-[550px] md:items-center"
-      aria-label="Featured photography"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-    >
+  className="relative flex min-h-screen items-end overflow-hidden bg-[#111] text-white md:min-h-screen md:items-center"
+  aria-label="Featured photography"
+  onMouseEnter={() => setPaused(true)}
+  onMouseLeave={() => setPaused(false)}
+>
       {heroSlides.map((s, i) => (
         <Image
           key={s.src}
@@ -68,8 +68,11 @@ export default function Hero() {
         <p className="mb-[17px] text-[8px] font-bold tracking-[3px] uppercase md:mb-6 md:text-[9px] md:tracking-[4px]">
           PEOPLE · PLACES · MOMENTS
         </p>
-        <h2 className="m-0 font-serif text-[44px] leading-[.98] font-normal tracking-[-1.8px] min-[421px]:text-[clamp(46px,13vw,68px)] md:text-[clamp(48px,5vw,78px)] md:tracking-[-2.8px]">
-          Stories<br />told through<br /><em className="font-medium text-[#f18a2d]">light.</em>
+        <h2 className="m-0 font-serif text-[40px] leading-[.98] font-normal tracking-[-1.8px] min-[421px]:text-[clamp(46px,13vw,68px)] md:text-[clamp(48px,5vw,78px)] md:tracking-[-2.8px]">
+          Stories<br />
+          <span className="whitespace-nowrap">
+            told through <em className="font-medium text-[#f18a2d]">light.</em>
+          </span>
         </h2>
       
       </div>

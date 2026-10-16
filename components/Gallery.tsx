@@ -90,8 +90,8 @@ export default function Gallery({ photos, showFilters = true }: Props) {
             />
             <span className="absolute inset-0 bg-gradient-to-b from-transparent from-55% to-[#080c0ec7] transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100 md:group-focus-visible:opacity-100" />
             <span className="absolute right-4 bottom-[9px] left-2.5 z-[1] grid gap-[3px] text-left text-white transition duration-300 md:bottom-3.5 md:left-4 md:translate-y-2 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 md:group-focus-visible:translate-y-0 md:group-focus-visible:opacity-100">
-              <small className="text-[9px] tracking-[1.2px] text-peach uppercase">{p.location}</small>
-              <strong className="font-serif text-[15px] font-medium md:text-xl">{p.title}</strong>
+              {/* <small className="text-[9px] tracking-[1.2px] text-peach uppercase">{p.location}</small>
+              <strong className="font-serif text-[15px] font-medium md:text-xl">{p.title}</strong> */}
             </span>
           </button>
         ))}

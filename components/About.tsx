@@ -18,7 +18,7 @@ export default function About() {
       <div className="mx-auto grid max-w-[1500px] grid-cols-1 items-center gap-7 px-6 pt-12 pb-[30px] md:grid-cols-[minmax(0,1fr)_minmax(0,.9fr)] md:gap-x-[8%] md:gap-y-[42px] md:px-[clamp(28px,7%,100px)] md:pt-[68px] md:pb-[34px]">
         <div className="min-w-0">
           <div className={`${kickerBase} text-amber`}>BEHIND THE LENS</div>
-          <p className="mt-[22px] mb-3 text-[8px] font-semibold tracking-[2.5px] text-white/60 md:mt-[27px]">A LITTLE ABOUT ME</p>
+          <p className="mt-[22px] mb-3 text-[12px] font-semibold tracking-[2.5px] text-white/95 md:mt-[27px]">A LITTLE ABOUT ME</p>
           <h3 className="mb-7 max-w-[600px] font-serif text-[clamp(38px,9vw,54px)] leading-[1.08] font-normal tracking-[-1.8px] md:text-[clamp(38px,4.2vw,62px)]">
             I don&apos;t just<br />take pictures.<br /><em className="text-amber">I preserve<br />feelings.</em>
           </h3>
@@ -35,7 +35,7 @@ export default function About() {
           <p className="mb-[17px] max-w-[470px] font-serif text-[clamp(22px,2.4vw,32px)] leading-[1.38]">
             Photography is my way of noticing what the world often asks us to pass by.
           </p>
-          <p className="mb-[22px] max-w-[470px] text-xs leading-[1.95] text-white/70">
+          <p className="mb-[22px] max-w-[470px] text-[14px] leading-[1.95] text-white/95">
             I&apos;m Elena Rostova, a fine art and editorial photographer drawn to honest portraits, untamed
             landscapes, and the quiet beauty of everyday life. I create images that feel timeless, personal,
             and full of meaning.
@@ -58,17 +58,13 @@ export default function About() {
                 <strong className="block font-serif text-[29px] leading-[1.1] font-normal whitespace-nowrap">
                   {s.value}<span className="text-[19px] text-amber">+</span>
                 </strong>
-                <small className="mt-[5px] block text-[9px] tracking-[.4px] text-white/60">{s.label}</small>
+                <small className="mt-[5px] block text-[14px] tracking-[.4px] text-white/95">{s.label}</small>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="flex flex-wrap items-center gap-[13px] text-[8px] tracking-[1.8px] text-white/45 md:col-span-2">
-          <span>WITH CURIOSITY &amp; LIGHT</span>
-          <span className="h-px w-[38px] bg-amber" />
-          <span>ER. STUDIO</span>
-        </div>
+        
       </div>
     </section>
   );

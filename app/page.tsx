@@ -20,7 +20,7 @@ export default function HomePage() {
         <div className="mb-[30px] flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div>
             <div className={kicker}>LATEST FRAMES</div>
-            <h3 className={sectionTitle}>Recently <em>developed.</em></h3>
+            <h3 className={sectionTitle}>Our  <em>Gallery.</em></h3>
           </div>
           <Link className={`${textlink} text-rust hover:text-ink`} href="/portfolio">View full gallery ↗</Link>
         </div>

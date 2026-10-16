@@ -11,7 +11,7 @@ export default function Sidebar({ open }: { open: boolean }) {
 
   return (
     <aside
-      className={`fixed inset-y-0 left-0 z-50 flex w-[min(310px,86vw)] flex-col overflow-y-auto border-r border-ink/[.07] bg-paper px-5 pt-8 pb-6 transition-transform duration-300 md:w-[220px] md:translate-x-0 md:shadow-none lg:w-[258px] lg:px-6 lg:pt-9 ${
+      className={`fixed inset-y-0 left-0 z-50 flex w-[min(310px,86vw)] flex-col  border-r border-ink/[.07] bg-paper px-5 pt-8 pb-6 transition-transform duration-300 md:w-[220px] md:translate-x-0 md:shadow-none lg:w-[258px] lg:px-6 lg:pt-9 ${
         open ? "translate-x-0 shadow-[12px_0_35px_#0002]" : "-translate-x-[105%]"
       }`}
     >
@@ -54,21 +54,7 @@ export default function Sidebar({ open }: { open: boolean }) {
       </nav>
 
       <div className="mt-auto pt-6 text-center">
-        <Link href="/portfolio/landscapes" className="group relative mb-6 block min-h-[150px] overflow-hidden rounded-lg text-left">
-          <Image
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
-            src={localPhotos.alpineLake}
-            alt=""
-            fill
-            sizes="220px"
-          />
-          <span className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent to-85%" />
-          <p className="absolute bottom-3 left-4 z-[1] m-0 text-[13px] leading-snug text-white">
-            New series:
-            <br />
-            <em className="font-serif text-xl text-[#f5c38c]">Alpine Light</em>
-          </p>
-        </Link>
+        
         <div className="mb-[18px] h-px bg-ink/[.12]" />
         <div className="text-[9px] leading-[1.8] tracking-[.6px] text-[#777]">
           © 2026 ELENA ROSTOVA

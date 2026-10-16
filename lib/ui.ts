@@ -4,7 +4,7 @@ export const gutter = "px-6 md:px-[5.2%]";
 
 // kickerBase has no colour so callers can add one without class conflicts
 export const kickerBase =
-  "flex items-center gap-3 text-[9px] font-bold uppercase leading-relaxed tracking-[2.8px] after:h-px after:w-[30px] after:shrink-0 after:bg-current after:content-['']";
+  "flex items-center gap-3 text-[10px] font-bold uppercase leading-relaxed tracking-[2.8px] after:h-px after:w-[30px] after:shrink-0 after:bg-current after:content-['']";
 export const kicker = `${kickerBase} text-rust`;
 
 export const btnBase =
