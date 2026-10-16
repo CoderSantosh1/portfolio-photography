@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Design tokens — every colour, font and animation used by the utility classes */
+@theme {
+  --color-paper: #f5f2eb;
+  --color-paper-deep: #ece7dc;
+  --color-card: #fffdf8;
+  --color-ink: #17212d;
+  --color-muted: #77766f;
+  --color-line: #17212d1a;
+  --color-orange: #d76b16;
+  --color-rust: #c65d12;
+  --color-amber: #f1aa60;
+  --color-gold: #f3a13d;
+  --color-peach: #f5bd83;
+  --color-forest: #182019;
+
+  --font-sans: var(--font-dm-sans), "DM Sans", Arial, sans-serif;
+  --font-serif: var(--font-playfair), "Playfair Display", Georgia, serif;
+
+  --animate-curtain-left: curtain-left 1.25s cubic-bezier(.76, 0, .24, 1) .15s both;
+  --animate-curtain-right: curtain-right 1.25s cubic-bezier(.76, 0, .24, 1) .15s both;
+  --animate-reveal: reveal .65s ease .72s both;
+  --animate-reveal-fast: reveal .7s ease .1s both;
+  --animate-fade-up: reveal .5s ease both;
+  --animate-fade-in: fade-in .25s ease;
+  --animate-slow-zoom: slow-zoom 18s ease-out both;
+
+  @keyframes curtain-left { to { transform: translateX(-101%); } }
+  @keyframes curtain-right { to { transform: translateX(101%); } }
+  @keyframes reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fade-in { from { opacity: 0; } }
+  @keyframes slow-zoom { from { transform: scale(1.1); } to { transform: scale(1); } }
+}
