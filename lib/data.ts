@@ -23,8 +23,9 @@ export const navItems = [
   { href: "/portfolio", label: "Portfolio Gallery", icon: "▦" },
   { href: "/gear", label: "Gear & Lenses", icon: "◎" },
   { href: "/about", label: "About Me", icon: "♙" },
-  { href: "/services", label: "Services & Pricing", icon: "☷" },
-  { href: "/booking", label: "Book a Session", icon: "➤" },
+  { href: "/services", label: "Services", icon: "☷" },
+  { href: "/pricing", label: "Pricing", icon: "◇" },
+  { href: "/booking", label: "Contact Us", icon: "➤" },
 ];
 
 export const heroSlides = [

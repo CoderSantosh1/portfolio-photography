@@ -12,7 +12,7 @@ export default function AboutPage() {
       <AboutHero />
       <StoryCollage />
       <StatsQuote />
-      <Chapters />
+      {/* <Chapters /> */}
     </>
   );
 }
