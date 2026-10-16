@@ -28,7 +28,6 @@ export default function ServicesCTA() {
           A portrait, a brand story or a fine art print — I&apos;d love to hear your idea.
         </p>
         <Link className={`${btnBase} mt-7 border-amber bg-amber text-ink hover:text-white`} href="/booking">
-          Book a Session <span className="text-lg transition group-hover:translate-x-[3px]">→</span>
         </Link>
       </Reveal>
 
