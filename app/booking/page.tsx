@@ -87,26 +87,7 @@ export default function BookingPage() {
         id="studio-location"
         className={`${section} !pt-0`}
       >
-        <div className="mb-6 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
-          <div>
-            <div className={kicker}>FIND THE STUDIO</div>
-
-            <h3 className={`${sectionTitle} mt-3`}>
-              Let&apos;s meet <em>in person.</em>
-            </h3>
-
-            <p className="mt-2 max-w-md text-[12px] leading-6 text-muted">
-              Find the studio location and plan your visit
-              for your next photography session.
-            </p>
-          </div>
-
-          <div className="flex items-center gap-2 text-[10px] text-muted">
-            <span className="size-2 rounded-full bg-rust" />
-            <span>{artist.location}</span>
-          </div>
-        </div>
-
+       
         {/* Map */}
         <div className="group relative h-[280px] overflow-hidden border border-line bg-[#eee9df] sm:h-[360px] lg:h-[420px]">
           <iframe

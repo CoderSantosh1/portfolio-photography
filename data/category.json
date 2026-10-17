@@ -1275,15 +1275,16 @@
         "icon": "▦"
       },
       {
-        "href": "/gear",
-        "label": "Gear & Lenses",
-        "icon": "◎"
-      },
-      {
         "href": "/about",
         "label": "About Me",
         "icon": "♙"
       },
+      {
+        "href": "/gear",
+        "label": "Gear & Lenses",
+        "icon": "◎"
+      },
+      
       {
         "href": "/services",
         "label": "Services",
@@ -1679,7 +1680,7 @@
         "name": "Fine Art Prints",
         "tag": "Art That Lasts",
         "image": "/services/cards/fine-art-prints.jpg",
-        "cta": "View Prints",
+        "cta": "ENQUIRE",
         "price": "180",
         "unit": "from",
         "description": "Museum-grade archival prints of the landscape and nature collections.",
