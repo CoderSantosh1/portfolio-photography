@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [{ protocol: "https", hostname: "images.unsplash.com" }],
-  },
-};
+// All images are served locally from /public/images
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

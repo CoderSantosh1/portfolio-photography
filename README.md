@@ -25,5 +25,5 @@ npm run build && npm start
 - **All copy, photos, prices, gear:** `lib/data.ts`
 - **Colours, fonts, animations:** `app/globals.css` (Tailwind `@theme` tokens, e.g. `bg-paper`, `text-rust`, `font-serif`)
 - **Shared class presets (buttons, kicker, sections):** `lib/ui.ts`
-- **Your own photos:** drop files in `public/images/` and reference them as `/images/your-file.jpg` in `lib/data.ts`
+- **Your own photos:** drop files in the matching `public/<section>/` folder (e.g. `public/about/`) and reference them as `/about/your-file.jpg` in `data/category.json`
 - **Booking emails:** `app/api/booking/route.ts` (currently validates and logs; plug in Resend/Nodemailer there)

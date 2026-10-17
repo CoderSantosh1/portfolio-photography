@@ -1252,14 +1252,14 @@
   },
   "site": {
     "localPhotos": {
-      "alpineLake": "/images/alpine-lake-golden-hour.png",
-      "stormRuins": "/images/storm-ruins.png",
-      "mistyMountains": "/images/misty-mountains.png"
+      "alpineLake": "/generated/alpine-lake-golden-hour.png",
+      "stormRuins": "/generated/storm-ruins.png",
+      "mistyMountains": "/generated/misty-mountains.png"
     },
     "artist": {
       "name": "Elena Rostova",
       "tagline": "Fine Art & Editorial",
-      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=85",
+      "avatar": "/shared/avatar.jpg",
       "email": "hello@example.com",
       "location": "Based in Zürich · Available worldwide"
     },
@@ -1302,27 +1302,27 @@
     ],
     "heroSlides": [
       {
-        "src": "/images/alpine-lake-golden-hour.png",
+        "src": "/generated/alpine-lake-golden-hour.png",
         "alt": "Alpine lake at golden hour",
         "label": "Alpine Lake at Golden Hour"
       },
       {
-        "src": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=85",
+        "src": "/home/hero/mountain-lake.jpg",
         "alt": "Mountain lake at dawn",
         "label": "Mountain Lake"
       },
       {
-        "src": "/images/storm-ruins.png",
+        "src": "/generated/storm-ruins.png",
         "alt": "Ancient ruins beneath a storm",
         "label": "Storm Over the Ruins"
       },
       {
-        "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=85",
+        "src": "/home/hero/wander.jpg",
         "alt": "Travel landscape",
         "label": "Wander"
       },
       {
-        "src": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=2200&q=85",
+        "src": "/home/hero/ocean.jpg",
         "alt": "Ocean wave",
         "label": "Ocean"
       }
@@ -1333,34 +1333,34 @@
         "title": "Portraits",
         "kicker": "People & Emotions",
         "intro": "Quiet, honest portraits made with natural light and a lot of patience — the moment just before or after the pose.",
-        "cover": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85"
+        "cover": "/portfolio/covers/portraits.jpg"
       },
       {
         "slug": "landscapes",
         "title": "Landscapes",
         "kicker": "Wander & Discover",
         "intro": "Mountains, lakes and weather at the edges of the day. Long walks, early alarms and waiting for light.",
-        "cover": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+        "cover": "/portfolio/covers/landscapes.jpg"
       },
       {
         "slug": "architecture",
         "title": "Architecture",
         "kicker": "Form & Perspective",
         "intro": "Lines, shadow and geometry — buildings treated as sculpture, stripped back to shape and light.",
-        "cover": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1000&q=85"
+        "cover": "/portfolio/covers/architecture.jpg"
       },
       {
         "slug": "nature",
         "title": "Nature",
         "kicker": "Small Wonders",
         "intro": "Forests, leaves and small living details that ask you to slow down and look a little closer.",
-        "cover": "https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&w=1000&q=85"
+        "cover": "/portfolio/covers/nature.jpg"
       }
     ],
     "photos": [
       {
         "id": "p1",
-        "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/portraits/golden-gaze.jpg",
         "title": "Golden Gaze",
         "location": "Lisbon, Portugal",
         "year": 2025,
@@ -1369,7 +1369,7 @@
       },
       {
         "id": "p2",
-        "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/portraits/soft-morning.jpg",
         "title": "Soft Morning",
         "location": "Paris, France",
         "year": 2024,
@@ -1378,7 +1378,7 @@
       },
       {
         "id": "p3",
-        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/portraits/the-architect.jpg",
         "title": "The Architect",
         "location": "Berlin, Germany",
         "year": 2024,
@@ -1387,7 +1387,7 @@
       },
       {
         "id": "p4",
-        "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/portraits/window-light.jpg",
         "title": "Window Light",
         "location": "Vienna, Austria",
         "year": 2023,
@@ -1396,7 +1396,7 @@
       },
       {
         "id": "p5",
-        "src": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/portraits/between-frames.jpg",
         "title": "Between Frames",
         "location": "Milan, Italy",
         "year": 2025,
@@ -1405,7 +1405,7 @@
       },
       {
         "id": "p6",
-        "src": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/portraits/still.jpg",
         "title": "Still",
         "location": "Copenhagen, Denmark",
         "year": 2022,
@@ -1414,7 +1414,7 @@
       },
       {
         "id": "l1",
-        "src": "/images/alpine-lake-golden-hour.png",
+        "src": "/generated/alpine-lake-golden-hour.png",
         "title": "Alpine Lake at Golden Hour",
         "location": "Bernese Alps, Switzerland",
         "year": 2026,
@@ -1423,7 +1423,7 @@
       },
       {
         "id": "l2",
-        "src": "/images/misty-mountains.png",
+        "src": "/generated/misty-mountains.png",
         "title": "White Silence",
         "location": "Dolomites, Italy",
         "year": 2025,
@@ -1432,7 +1432,7 @@
       },
       {
         "id": "l3",
-        "src": "/images/storm-ruins.png",
+        "src": "/generated/storm-ruins.png",
         "title": "Storm Over the Ruins",
         "location": "Peloponnese, Greece",
         "year": 2025,
@@ -1441,7 +1441,7 @@
       },
       {
         "id": "l4",
-        "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/landscapes/summit-light.jpg",
         "title": "Summit Light",
         "location": "Patagonia, Chile",
         "year": 2024,
@@ -1450,7 +1450,7 @@
       },
       {
         "id": "l5",
-        "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/landscapes/above-the-clouds.jpg",
         "title": "Above the Clouds",
         "location": "Madeira, Portugal",
         "year": 2023,
@@ -1459,7 +1459,7 @@
       },
       {
         "id": "l6",
-        "src": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/landscapes/glass-water.jpg",
         "title": "Glass Water",
         "location": "Lake Bled, Slovenia",
         "year": 2024,
@@ -1468,7 +1468,7 @@
       },
       {
         "id": "l7",
-        "src": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/landscapes/starlit-ridge.jpg",
         "title": "Starlit Ridge",
         "location": "Banff, Canada",
         "year": 2022,
@@ -1477,7 +1477,7 @@
       },
       {
         "id": "l8",
-        "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/landscapes/last-rays.jpg",
         "title": "Last Rays",
         "location": "Tuscany, Italy",
         "year": 2023,
@@ -1486,7 +1486,7 @@
       },
       {
         "id": "a1",
-        "src": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/architecture/curved-silence.jpg",
         "title": "Curved Silence",
         "location": "Valencia, Spain",
         "year": 2025,
@@ -1495,7 +1495,7 @@
       },
       {
         "id": "a2",
-        "src": "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/architecture/vertical-city.jpg",
         "title": "Vertical City",
         "location": "Hong Kong",
         "year": 2024,
@@ -1504,7 +1504,7 @@
       },
       {
         "id": "a3",
-        "src": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/architecture/white-geometry.jpg",
         "title": "White Geometry",
         "location": "Lisbon, Portugal",
         "year": 2023,
@@ -1513,7 +1513,7 @@
       },
       {
         "id": "a4",
-        "src": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/architecture/steel-and-sky.jpg",
         "title": "Steel & Sky",
         "location": "Chicago, USA",
         "year": 2022,
@@ -1522,7 +1522,7 @@
       },
       {
         "id": "a5",
-        "src": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/architecture/night-grid.jpg",
         "title": "Night Grid",
         "location": "New York, USA",
         "year": 2024,
@@ -1531,7 +1531,7 @@
       },
       {
         "id": "n1",
-        "src": "https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/nature/green-hour.jpg",
         "title": "Green Hour",
         "location": "Black Forest, Germany",
         "year": 2025,
@@ -1540,7 +1540,7 @@
       },
       {
         "id": "n2",
-        "src": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/nature/morning-visitor.jpg",
         "title": "Morning Visitor",
         "location": "Scottish Highlands",
         "year": 2024,
@@ -1549,7 +1549,7 @@
       },
       {
         "id": "n3",
-        "src": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/nature/forest-path.jpg",
         "title": "Forest Path",
         "location": "Hoh Rainforest, USA",
         "year": 2023,
@@ -1558,7 +1558,7 @@
       },
       {
         "id": "n4",
-        "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/nature/cathedral-of-trees.jpg",
         "title": "Cathedral of Trees",
         "location": "Bavaria, Germany",
         "year": 2024,
@@ -1567,7 +1567,7 @@
       },
       {
         "id": "n5",
-        "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/nature/petals.jpg",
         "title": "Petals",
         "location": "Kyoto, Japan",
         "year": 2022,
@@ -1576,7 +1576,7 @@
       },
       {
         "id": "n6",
-        "src": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1600&q=85",
+        "src": "/portfolio/nature/falling-water.jpg",
         "title": "Falling Water",
         "location": "Iceland",
         "year": 2023,
@@ -1591,12 +1591,12 @@
           {
             "name": "Sony α7R V",
             "note": "61MP full-frame — landscapes & fine art prints",
-            "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=85"
+            "image": "/gear/sony-7r-v.jpg"
           },
           {
             "name": "Fujifilm X100VI",
             "note": "Everyday street & travel companion",
-            "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=900&q=85"
+            "image": "/gear/fujifilm-x100vi.jpg"
           }
         ]
       },
@@ -1606,12 +1606,12 @@
           {
             "name": "FE 85mm f/1.4 GM II",
             "note": "Portrait workhorse, creamy fall-off",
-            "image": "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?auto=format&fit=crop&w=900&q=85"
+            "image": "/gear/fe-85mm-f-1-4-gm-ii.jpg"
           },
           {
             "name": "FE 24-70mm f/2.8 GM II",
             "note": "Editorial & commissioned work",
-            "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=900&q=85"
+            "image": "/gear/fe-24-70mm-f-2-8-gm-ii.jpg"
           }
         ]
       }
@@ -1646,7 +1646,7 @@
       {
         "name": "Portrait Session",
         "tag": "People & Stories",
-        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=85",
+        "image": "/services/cards/portrait-session.jpg",
         "cta": "Enquire",
         "price": "450",
         "unit": "per session",
@@ -1662,7 +1662,7 @@
       {
         "name": "Editorial & Brand",
         "tag": "Brands & Publications",
-        "image": "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?auto=format&fit=crop&w=900&q=85",
+        "image": "/services/cards/editorial-and-brand.jpg",
         "cta": "Enquire",
         "price": "1,200",
         "unit": "half day",
@@ -1678,7 +1678,7 @@
       {
         "name": "Fine Art Prints",
         "tag": "Art That Lasts",
-        "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
+        "image": "/services/cards/fine-art-prints.jpg",
         "cta": "View Prints",
         "price": "180",
         "unit": "from",
@@ -1755,27 +1755,27 @@
     "aboutPage": {
       "heroSlides": [
         {
-          "src": "/images/alpine-lake-golden-hour.png",
+          "src": "/generated/alpine-lake-golden-hour.png",
           "label": "Bernese Alps"
         },
         {
-          "src": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=2000&q=85",
+          "src": "/about/on-the-trail.jpg",
           "label": "On the trail"
         },
         {
-          "src": "/images/misty-mountains.png",
+          "src": "/generated/misty-mountains.png",
           "label": "Dolomites"
         },
         {
-          "src": "/images/storm-ruins.png",
+          "src": "/generated/storm-ruins.png",
           "label": "Peloponnese"
         }
       ],
       "collage": {
-        "portrait": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85",
-        "peak": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=800&q=85",
-        "camera": "https://images.unsplash.com/photo-1495121553079-4c61bcce1894?auto=format&fit=crop&w=900&q=85",
-        "lake": "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?auto=format&fit=crop&w=1000&q=85"
+        "portrait": "/about/portrait.jpg",
+        "peak": "/about/peak.jpg",
+        "camera": "/about/camera.jpg",
+        "lake": "/about/lake.jpg"
       },
       "quote": [
         "I don't just take pictures.",
@@ -1786,44 +1786,44 @@
           "n": "01.",
           "title": "Explore",
           "text": "Chasing light to the quiet edges of the map.",
-          "src": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=1000&q=85"
+          "src": "/about/explore.jpg"
         },
         {
           "n": "02.",
           "title": "Feel",
           "text": "Waiting for the moment that says everything.",
-          "src": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1000&q=85"
+          "src": "/about/feel.jpg"
         },
         {
           "n": "03.",
           "title": "Create",
           "text": "Shaping honest frames that last a lifetime.",
-          "src": "https://images.unsplash.com/photo-1439853949127-fa647821eba0?auto=format&fit=crop&w=1000&q=85"
+          "src": "/about/create.jpg"
         }
       ]
     },
     "servicesPage": {
-      "heroImage": "/images/alpine-lake-golden-hour.png",
+      "heroImage": "/generated/alpine-lake-golden-hour.png",
       "behindTheScenes": [
         {
-          "src": "https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&w=1600&q=85",
+          "src": "/services/behind-the-scenes/golden-hour-on-the-waterfront.jpg",
           "caption": "Golden hour on the waterfront"
         },
         {
-          "src": "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?auto=format&fit=crop&w=1600&q=85",
+          "src": "/services/behind-the-scenes/street-editorial-hong-kong.jpg",
           "caption": "Street editorial, Hong Kong"
         },
         {
-          "src": "https://images.unsplash.com/photo-1520390138845-fd2d229dd553?auto=format&fit=crop&w=1600&q=85",
+          "src": "/services/behind-the-scenes/studio-light-setup.jpg",
           "caption": "Studio light setup"
         },
         {
-          "src": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1600&q=85",
+          "src": "/services/behind-the-scenes/autumn-forest-session.jpg",
           "caption": "Autumn forest session"
         }
       ],
-      "processImage": "/images/misty-mountains.png",
-      "ctaImage": "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?auto=format&fit=crop&w=2000&q=85",
+      "processImage": "/generated/misty-mountains.png",
+      "ctaImage": "/services/cta-banner.jpg",
       "ctaFacts": [
         {
           "icon": "pin",
