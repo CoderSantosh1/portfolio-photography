@@ -1,8 +1,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { categories, type CategorySlug } from "@/lib/data";
-import { kicker } from "@/lib/ui";
+import { categories, type CategorySlug } from "@/site-data";
+import { kicker } from "@/components/ui";
 
 const placement: Partial<Record<CategorySlug, string>> = {
   portraits: "md:col-start-2 md:row-start-1 md:row-span-2",

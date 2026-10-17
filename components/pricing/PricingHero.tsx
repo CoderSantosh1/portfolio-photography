@@ -1,4 +1,4 @@
-import { localPhotos } from "@/lib/data";
+import { localPhotos } from "@/site-data";
 import SplitHero from "@/components/motion/SplitHero";
 
 export default function PricingHero() {

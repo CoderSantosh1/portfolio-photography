@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { processSteps, services } from "@/lib/data";
-import { btnArrowDark, btnBase, btnDark, kicker } from "@/lib/ui";
+import { processSteps, services } from "@/site-data";
+import { btnArrowDark, btnBase, btnDark, kicker } from "@/components/ui";
 
 export default function Services() {
   return (

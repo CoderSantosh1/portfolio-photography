@@ -3,8 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
-import { artist, heroSlides } from "@/lib/data";
-import { btnArrowLight, btnLight } from "@/lib/ui";
+import { artist, heroSlides } from "@/site-data";
+import { btnArrowLight, btnLight } from "@/components/ui";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 const circleBtn =

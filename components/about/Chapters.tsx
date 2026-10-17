@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { aboutPage } from "@/lib/data";
+import { aboutPage } from "@/site-data";
 import Reveal from "@/components/motion/Reveal";
 
 // Explore · Feel · Create — titles only; the one-line story slides in on hover

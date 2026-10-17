@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import { aboutPage, artist } from "@/lib/data";
+import { aboutPage, artist } from "@/site-data";
 import Reveal from "@/components/motion/Reveal";
 
 const img =

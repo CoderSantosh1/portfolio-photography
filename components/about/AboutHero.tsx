@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { aboutPage } from "@/lib/data";
+import { aboutPage } from "@/site-data";
 
 const SLIDE_MS = 6000;
 const pad = (n: number) => String(n).padStart(2, "0");

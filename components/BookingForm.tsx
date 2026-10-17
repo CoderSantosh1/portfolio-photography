@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { services } from "@/lib/data";
-import { btnArrowDark, btnDark, panel } from "@/lib/ui";
+import { services } from "@/site-data";
+import { btnArrowDark, btnDark, panel } from "@/components/ui";
 
 type Status = "idle" | "sending" | "sent" | "error";
 

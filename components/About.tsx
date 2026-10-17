@@ -2,7 +2,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { kickerBase } from "@/lib/ui";
+import { kickerBase } from "@/components/ui";
 
 const testimonials = [
   {

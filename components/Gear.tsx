@@ -2,8 +2,8 @@
 "use client";
 
 import Image from "next/image";
-import { gear, gearExtras } from "@/lib/data";
-import { kicker } from "@/lib/ui";
+import { gear, gearExtras } from "@/site-data";
+import { kicker } from "@/components/ui";
 
 export default function Gear() {
   return (

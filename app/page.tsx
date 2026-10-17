@@ -4,8 +4,8 @@ import Hero from "@/components/Hero";
 import SelectedWork from "@/components/SelectedWork";
 import About from "@/components/About";
 import Gallery from "@/components/Gallery";
-import { localPhotos, photos } from "@/lib/data";
-import { btnArrowDark, btnDark, gutter, kicker, section, sectionTitle, textlink } from "@/lib/ui";
+import { localPhotos, photos } from "@/site-data";
+import { btnArrowDark, btnDark, gutter, kicker, section, sectionTitle, textlink } from "@/components/ui";
 
 const recent = [...photos].sort((a, b) => b.year - a.year).slice(0, 6);
 

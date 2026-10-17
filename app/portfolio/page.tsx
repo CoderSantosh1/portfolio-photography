@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import Gallery from "@/components/Gallery";
-import { categories, localPhotos, photos, photosIn } from "@/lib/data";
-import { gutter, section } from "@/lib/ui";
+import { categories, localPhotos, photos, photosIn } from "@/site-data";
+import { gutter, section } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Portfolio Gallery" };
 

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { artist, navItems, localPhotos } from "@/lib/data";
+import { artist, navItems, localPhotos } from "@/site-data";
 
 export default function Sidebar({ open }: { open: boolean }) {
   const pathname = usePathname();

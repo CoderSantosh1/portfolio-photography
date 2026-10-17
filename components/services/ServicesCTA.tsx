@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { servicesPage } from "@/lib/data";
-import { btnBase, kickerBase } from "@/lib/ui";
+import { servicesPage } from "@/site-data";
+import { btnBase, kickerBase } from "@/components/ui";
 import Icon from "@/components/motion/Icon";
 import Reveal from "@/components/motion/Reveal";
 

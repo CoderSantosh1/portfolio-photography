@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { processSteps, servicesPage } from "@/lib/data";
-import { kicker } from "@/lib/ui";
+import { processSteps, servicesPage } from "@/site-data";
+import { kicker } from "@/components/ui";
 import Icon from "@/components/motion/Icon";
 import Reveal from "@/components/motion/Reveal";
 

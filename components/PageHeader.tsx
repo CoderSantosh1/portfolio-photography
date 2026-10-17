@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { kickerBase } from "@/lib/ui";
+import { kickerBase } from "@/components/ui";
 
 type Props = { kicker: string; title: React.ReactNode; text?: string; image: string };
 

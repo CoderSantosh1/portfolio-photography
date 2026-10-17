@@ -1,4 +1,4 @@
-import { servicesPage } from "@/lib/data";
+import { servicesPage } from "@/site-data";
 import SplitHero from "@/components/motion/SplitHero";
 import BehindTheScenes from "./BehindTheScenes";
 

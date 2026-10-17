@@ -1,0 +1,1846 @@
+{
+  "common": {
+    "contactInfo": {
+      "addressLine1": "1234 Main Street, Suite 100",
+      "addressLine2": "Springfield, IL 62701, USA",
+      "phone": "+1 00000000",
+      "phoneUrl": "tel:+100000000",
+      "email": "info@xyz.com"
+    },
+    "Footer": {
+      "logo": "/logo.png",
+      "logoAlt": "Lumora Astudio",
+      "tagline": "• • • PHOTOGRAPHY & FILMMAKING • • •",
+      "bgImage": "/Home/FooterBackgroundImage.png",
+      "description": "We are passionate about capturing your lovely memories in cameras and convey your love for every moment of life as a whole.",
+      "quickLinksTitle": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "ql-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "ql-about-us",
+          "label": "About Us",
+          "url": "/aboutus"
+        },
+        {
+          "id": "ql-services",
+          "label": "Services",
+          "url": "/services"
+        },
+        {
+          "id": "ql-portfolio",
+          "label": "Portfolio",
+          "url": "/portfolio"
+        },
+        {
+          "id": "ql-faq",
+          "label": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "id": "ql-blog",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "ql-contact-us",
+          "label": "Contact Us",
+          "url": "/contact"
+        }
+      ],
+      "servicesTitle": "Our Services",
+      "servicesLinks": [
+        {
+          "id": "sl-wedding-photography",
+          "label": "Wedding Photography",
+          "url": "/services/wedding-photography"
+        },
+        {
+          "id": "sl-drone-cinematography",
+          "label": "Drone Cinematography",
+          "url": "/services/drone-cinematography"
+        },
+        {
+          "id": "sl-wedding-cinematography",
+          "label": "Wedding Cinematography",
+          "url": "/services/wedding-cinematography"
+        },
+        {
+          "id": "sl-personal-portfolio-shoot",
+          "label": "Personal Portfolio Shoot",
+          "url": "/services/personal-portfolio"
+        },
+        {
+          "id": "sl-event-photography",
+          "label": "Event Photography",
+          "url": "/services/event-photography"
+        },
+        {
+          "id": "sl-product-photography",
+          "label": "Product Photography",
+          "url": "/services/product-photography"
+        }
+      ],
+      "getInTouchTitle": "Get In Touch",
+      "addressTitle": "Address",
+      "phoneTitle": "Phone",
+      "emailTitle": "Email",
+      "copyrightText": "Copyright © 2026. All rights reserved. Powered by Lestow."
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "servicesBreadcrumb": {
+      "title": "Service",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "serviceDetailBreadcrumb": {
+      "title": "Service Detail",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "blogBreadcrumb": {
+      "title": "Blog",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "blogDetailBreadcrumb": {
+      "title": "Blog Detail",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "portfolioBreadcrumb": {
+      "title": "Portfolio",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "portfolioDetailBreadcrumb": {
+      "title": "Portfolio Detail",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "bookingBreadcrumb": {
+      "title": "Book Appointment",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "faqBreadcrumb": {
+      "title": "Faq",
+      "bgImage": "/About/HeroImage.png"
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "bgImage": "/About/HeroImage.png"
+    }
+  },
+  "categories": {
+    "Photography": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "PhotographyHeader1": {
+              "logo": "/logo.png",
+              "logoAlt": "Lumora Astudio",
+              "navLinks": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about-us",
+                  "label": "About Us",
+                  "url": "/aboutus"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Services",
+                  "url": "/services"
+                },
+                {
+                  "id": "nl-portfolio",
+                  "label": "Portfolio",
+                  "url": "/portfolio"
+                },
+                {
+                  "id": "nl-blog",
+                  "label": "Blog",
+                  "url": "/blog"
+                },
+                {
+                  "id": "nl-contact-us",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "bookingButton": {
+                "text": "Book a Shoot",
+                "url": "/book-a-shoot"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "PhotographyHero1": {
+              "subtitle": "PHOTOGRAPHY STUDIO",
+              "title1": "Capturing",
+              "titleScript": "Moments",
+              "title2": "That Last Forever",
+              "description": [
+                "From candid emotions to timeless portraits, we turn",
+                "your special moments into beautiful stories."
+              ],
+              "slides": [
+                "/Home/HeroImage.png",
+                "/Home/HeroImage.png",
+                "/Home/HeroImage.png",
+                "/Home/HeroImage.png"
+              ],
+              "button": {
+                "text": "Book a Shoot",
+                "url": "/book-a-shoot"
+              }
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "PhotographyAboutUs1": {
+              "subtitle": "ABOUT US",
+              "title1": "Lumora Studio Captures",
+              "titleScript": "All of Your",
+              "title2": "Beautiful Memories",
+              "descriptions": [
+                "At Lumora Studio, we believe every moment has a story worth capturing. With a passion for creativity and an eye for detail, we specialize in turning your special moments into timeless visual stories.",
+                "From portraits to events, our team is dedicated to delivering stunning photography that you'll cherish forever."
+              ],
+              "button": {
+                "text": "More About",
+                "url": "/aboutus"
+              },
+              "image": "/Home/AboutsusImage.png",
+              "imageAlt": "Lumora Studio photographer working in a studio"
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "PhotographyWhyChooseUs1": {
+              "subtitle": "OUR FEATURES",
+              "title1": "Why",
+              "titleScript": "Choose Us",
+              "description": "At Lumora Astudio, we turn your special moments into timeless visual stories with creativity, passion and expertise.",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "camera",
+                  "title": "20+ Years Experience",
+                  "description": "Decades of expertise in photography & videography."
+                },
+                {
+                  "id": "f2",
+                  "icon": "lightbulb",
+                  "title": "Creative Shoot Ideas",
+                  "description": "Unique and creative concepts for every occasion."
+                },
+                {
+                  "id": "f3",
+                  "icon": "trophy",
+                  "title": "Globally Awarded",
+                  "description": "Recognized for excellence in photography and filmmaking."
+                },
+                {
+                  "id": "f4",
+                  "icon": "gem",
+                  "title": "Best Quality Photos",
+                  "description": "High-quality, professionally edited images."
+                }
+              ],
+              "mainImage": {
+                "src": "/Home/WeddingPhotography.png",
+                "alt": "Wedding photography"
+              },
+              "smallImage": {
+                "src": "/Home/CanonDSLR.png",
+                "alt": "Professional camera"
+              },
+              "stats": [
+                {
+                  "id": "st1",
+                  "icon": "camera",
+                  "value": "50+",
+                  "label": "Photographers",
+                  "highlight": false
+                },
+                {
+                  "id": "st2",
+                  "icon": "calendar",
+                  "value": "300+",
+                  "label": "Events Covered",
+                  "highlight": true
+                }
+              ],
+              "infoCard": {
+                "subtitle": "LUMORA ASTUDIO",
+                "titleLines": [
+                  "Capturing More",
+                  "Than Just Photos"
+                ],
+                "description": "Lumora Astudio has over 20 years of experience in photography & videography, which makes us the pioneers in this profession. We are having so much fun doing this, because your happiness is our inspiration.",
+                "button": {
+                  "text": "More About",
+                  "url": "/aboutus"
+                }
+              }
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "PhotographyServices1": {
+              "subtitle": "SERVICES",
+              "title1": "Our Photography",
+              "titleScript": "Services",
+              "descriptionLead": "We're deeply passionate about",
+              "descriptionHighlight": "capturing your lovely memories",
+              "descriptionEnd": "in cameras and convey your love for every moment of life as a whole.",
+              "services": [
+                {
+                  "id": "wedding-photography",
+                  "slug": "wedding-photography",
+                  "number": "01",
+                  "title": "Wedding Photography",
+                  "titleLines": [
+                    "Wedding",
+                    "Photography"
+                  ],
+                  "description": "Beautifully capturing your special day with timeless moments and real emotions.",
+                  "shortDescription": "Beautifully capturing your special day with timeless memories.",
+                  "cardImage": "/Home/WeddingPhotography.png",
+                  "image": "/Home/WeddingPhotography.png",
+                  "thumb": "/ServiceDetail/WeddingThumb.png"
+                },
+                {
+                  "id": "drone-cinematography",
+                  "slug": "drone-cinematography",
+                  "number": "02",
+                  "title": "Drone Cinematography",
+                  "titleLines": [
+                    "Drone",
+                    "Cinematography"
+                  ],
+                  "description": "Stunning aerial shots to make your events and stories look extraordinary.",
+                  "shortDescription": "Stunning aerial shots to make your events look extraordinary.",
+                  "cardImage": "/Home/DroneCinematography.png",
+                  "image": "/Home/DroneCinematography.png",
+                  "thumb": "/Home/DroneCinematography.png"
+                },
+                {
+                  "id": "wedding-cinematography",
+                  "slug": "wedding-cinematography",
+                  "number": "03",
+                  "title": "Wedding Cinematography",
+                  "titleLines": [
+                    "Wedding",
+                    "Cinematography"
+                  ],
+                  "description": "Cinematic films that beautifully tell the story of your most cherished moments.",
+                  "shortDescription": "Cinematic films that tell the story of your cherished moments.",
+                  "cardImage": "/Home/WeddingCinematography.png",
+                  "image": "/Home/WeddingCinematography.png",
+                  "thumb": "/Home/WeddingCinematography.png"
+                },
+                {
+                  "id": "personal-portfolio",
+                  "slug": "personal-portfolio",
+                  "number": "04",
+                  "title": "Personal Portfolio Shoot",
+                  "titleLines": [
+                    "Personal",
+                    "Portfolio Shoot"
+                  ],
+                  "description": "Professional portraits to showcase your personality and unique style.",
+                  "shortDescription": "Professional portraits to showcase your personality and unique style.",
+                  "cardImage": "/Home/PersonalPortfolioShoot.png",
+                  "image": "/Home/PersonalPortfolioShoot.png",
+                  "thumb": "/Home/PersonalPortfolioShoot.png"
+                },
+                {
+                  "id": "studio-photography",
+                  "slug": "studio-photography",
+                  "number": "05",
+                  "title": "Studio Photography",
+                  "titleLines": [
+                    "Studio",
+                    "Photography"
+                  ],
+                  "description": "Professional studio sessions with perfect lighting, styling and creative setups.",
+                  "shortDescription": "Professional studio sessions with perfect lighting and style.",
+                  "cardImage": "/Portfolio/Studio.png",
+                  "image": "/ServiceDetail/StudioPhotography.png",
+                  "thumb": "/Portfolio/Studio.png"
+                },
+                {
+                  "id": "event-photography",
+                  "slug": "event-photography",
+                  "number": "06",
+                  "title": "Event Photography",
+                  "titleLines": [
+                    "Event",
+                    "Photography"
+                  ],
+                  "description": "Covering all your important events with creativity and attention to detail.",
+                  "shortDescription": "Covering all your important events with creativity.",
+                  "cardImage": "/Portfolio/Event.png",
+                  "image": "/Portfolio/Event.png",
+                  "thumb": "/ServiceDetail/EventThumb.png"
+                },
+                {
+                  "id": "product-photography",
+                  "slug": "product-photography",
+                  "number": "07",
+                  "title": "Product Photography",
+                  "titleLines": [
+                    "Product",
+                    "Photography"
+                  ],
+                  "description": "High-quality product shots that make your brand and products stand out.",
+                  "shortDescription": "High-quality product shots to make your brand stand out.",
+                  "cardImage": "/Portfolio/Product.png",
+                  "image": "/Portfolio/Product.png",
+                  "thumb": "/ServiceDetail/ProductThumb.png"
+                },
+                {
+                  "id": "portrait-photography",
+                  "slug": "portrait-photography",
+                  "number": "08",
+                  "title": "Portrait Photography",
+                  "titleLines": [
+                    "Portrait",
+                    "Photography"
+                  ],
+                  "description": "Creative and professional portraits that capture your true character.",
+                  "shortDescription": "Creative and professional portraits for every occasion.",
+                  "cardImage": "/Portfolio/Indoor.png",
+                  "image": "/Portfolio/Indoor.png",
+                  "thumb": "/ServiceDetail/PortraitThumb.png"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceDetail": {
+          "variants": {
+            "PhotographyServiceDetail1": {
+              "intro": "The talent at Lumora Astudio runs wide and deep. Across many markets, geographies & typologies, our team members are some of the finest professionals in the industry wide and deep. Across many markets, geographies and typologies, our team members are some of the finest.",
+              "stepsTitle": "SERVICE STEPS",
+              "stepsIntro": "The talent at Lumora Astudio runs wide and deep. Across many markets, geographies & typologies, our team members are some of the finest professionals in the industry wide and deep.",
+              "steps": [
+                "The talent at Lumora Astudio runs wide and deep. Across many markets, geographies",
+                "Our team members are some of the finest professionals in the industry",
+                "Organized to deliver the most specialized service possible and enriched by the geographies and typologies, our team members are some of the finest."
+              ],
+              "outro": "The talent at Lumora Astudio runs wide and deep. Across many markets, geographies & typologies, our team members are some of the finest professionals in the industry wide and deep. Across many markets, geographies and typologies, our team members are some of the finest.",
+              "sidebarTitle1": "Other",
+              "sidebarTitle2": "Services",
+              "sidebarOrder": [
+                "wedding-photography",
+                "portrait-photography",
+                "product-photography",
+                "event-photography",
+                "studio-photography",
+                "drone-cinematography",
+                "wedding-cinematography",
+                "personal-portfolio"
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "PhotographyTestimonials1": {
+              "subtitle": "TESTIMONIALS",
+              "title1": "What Our Clients",
+              "titleScript": "Say About Us",
+              "description": [
+                "We are honored to be a part of so many beautiful stories.",
+                "Here's what our clients have to say about their experience with us."
+              ],
+              "testimonials": [
+                {
+                  "id": "t1",
+                  "name": "Priya Sharma",
+                  "location": "New Delhi",
+                  "text": "Absolutely loved the experience! The team was professional, creative and made us feel so comfortable throughout the shoot. The photos turned out beyond our expectations.",
+                  "rating": 5
+                },
+                {
+                  "id": "t2",
+                  "name": "Rohit Mehta",
+                  "location": "Mumbai",
+                  "text": "Amazing creativity and attention to detail! They captured our special moments so beautifully. Highly recommend for anyone looking for professional photography.",
+                  "rating": 5
+                },
+                {
+                  "id": "t3",
+                  "name": "Anjali Verma",
+                  "location": "Bengaluru",
+                  "text": "A wonderful team with great ideas and patience. The entire shoot was smooth and fun. The final photos were stunning and truly memorable!",
+                  "rating": 5
+                },
+                {
+                  "id": "t4",
+                  "name": "Karan Malhotra",
+                  "location": "Pune",
+                  "text": "Our pre-wedding shoot was an absolute delight. The team suggested beautiful locations and guided every pose naturally. We could not have asked for better pictures!",
+                  "rating": 5
+                },
+                {
+                  "id": "t5",
+                  "name": "Sneha Iyer",
+                  "location": "Chennai",
+                  "text": "They covered our family event with so much care and creativity. Every candid moment was captured perfectly and the album was delivered right on time.",
+                  "rating": 5
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "PhotographyBlogs1": {
+              "subtitle": "LATEST NEWS",
+              "title1": "Our Photography",
+              "titleScript": "Related Blog",
+              "descriptionLead": "We're deeply passionate about",
+              "descriptionHighlight": "capturing your lovely memories",
+              "descriptionEnd": "in cameras and convey your love for every moment of life as a whole.",
+              "blogs": [
+                {
+                  "id": "beginners-guide-to-photography",
+                  "slug": "beginners-guide-to-photography",
+                  "date": "25 SEP 2023",
+                  "fullDate": "September 25, 2023",
+                  "titleLead": "Beginners guide to start your",
+                  "titleScript": "photography journey",
+                  "author": "Ashton William",
+                  "avatar": "/Home/Avatar-1.jpg",
+                  "image": "/Home/GoldenHourPhotographer.png",
+                  "category": "Photography",
+                  "views": "1.3K Views"
+                },
+                {
+                  "id": "twenty-photography-tips",
+                  "slug": "twenty-photography-tips",
+                  "date": "22 SEP 2023",
+                  "fullDate": "September 22, 2023",
+                  "titleLead": "Twenty photography tips to make",
+                  "titleScript": "photos amazing",
+                  "author": "Olivia Rose",
+                  "avatar": "/Home/Avatar-2.jpg",
+                  "image": "/Home/CanonDSLR.png",
+                  "category": "Tips",
+                  "views": "980 Views"
+                },
+                {
+                  "id": "norway-best-photography-spots",
+                  "slug": "norway-best-photography-spots",
+                  "date": "22 SEP 2023",
+                  "fullDate": "September 22, 2023",
+                  "titleLead": "What Norway is best spots",
+                  "titleScript": "For Photography",
+                  "author": "Justin Burke",
+                  "avatar": "/Home/Avatar-2.jpg",
+                  "image": "/Home/SunsetMountain.png",
+                  "category": "Travel",
+                  "views": "2.1K Views"
+                },
+                {
+                  "id": "essential-editing-tips",
+                  "slug": "essential-editing-tips",
+                  "date": "18 SEP 2023",
+                  "fullDate": "September 18, 2023",
+                  "titleLead": "Essential editing tips to",
+                  "titleScript": "enhance your photos",
+                  "author": "Emma Clarke",
+                  "avatar": "/Home/Avatar-1.jpg",
+                  "image": "/Home/WarmPhotography.png",
+                  "category": "Editing",
+                  "views": "1.1K Views"
+                },
+                {
+                  "id": "planning-your-wedding-shoot",
+                  "slug": "planning-your-wedding-shoot",
+                  "date": "12 SEP 2023",
+                  "fullDate": "September 12, 2023",
+                  "titleLead": "How to plan a stress-free",
+                  "titleScript": "wedding shoot",
+                  "author": "Ashton William",
+                  "avatar": "/Home/Avatar-1.jpg",
+                  "image": "/Home/WeddingPhotography.png",
+                  "category": "Wedding",
+                  "views": "1.7K Views"
+                },
+                {
+                  "id": "drone-shots-for-events",
+                  "slug": "drone-shots-for-events",
+                  "date": "08 SEP 2023",
+                  "fullDate": "September 8, 2023",
+                  "titleLead": "Why drone shots make every",
+                  "titleScript": "event special",
+                  "author": "Justin Burke",
+                  "avatar": "/Home/Avatar-2.jpg",
+                  "image": "/Home/DroneCinematography.png",
+                  "category": "Cinematography",
+                  "views": "860 Views"
+                },
+                {
+                  "id": "portrait-posing-guide",
+                  "slug": "portrait-posing-guide",
+                  "date": "02 SEP 2023",
+                  "fullDate": "September 2, 2023",
+                  "titleLead": "A simple posing guide for",
+                  "titleScript": "natural portraits",
+                  "author": "Olivia Rose",
+                  "avatar": "/Home/Avatar-2.jpg",
+                  "image": "/Home/PersonalPortfolioShoot.png",
+                  "category": "Portrait",
+                  "views": "1.4K Views"
+                },
+                {
+                  "id": "cinematic-wedding-films",
+                  "slug": "cinematic-wedding-films",
+                  "date": "28 AUG 2023",
+                  "fullDate": "August 28, 2023",
+                  "titleLead": "Telling love stories through",
+                  "titleScript": "cinematic films",
+                  "author": "Emma Clarke",
+                  "avatar": "/Home/Avatar-1.jpg",
+                  "image": "/Home/WeddingCinematography.png",
+                  "category": "Cinematography",
+                  "views": "1.2K Views"
+                },
+                {
+                  "id": "golden-hour-lighting",
+                  "slug": "golden-hour-lighting",
+                  "date": "21 AUG 2023",
+                  "fullDate": "August 21, 2023",
+                  "titleLead": "Making the most of",
+                  "titleScript": "golden hour light",
+                  "author": "Ashton William",
+                  "avatar": "/Home/Avatar-1.jpg",
+                  "image": "/Portfolio/Outdoor.png",
+                  "category": "Lighting",
+                  "views": "2.4K Views"
+                },
+                {
+                  "id": "newborn-photography-tips",
+                  "slug": "newborn-photography-tips",
+                  "date": "15 AUG 2023",
+                  "fullDate": "August 15, 2023",
+                  "titleLead": "Gentle tips for your first",
+                  "titleScript": "newborn session",
+                  "author": "Olivia Rose",
+                  "avatar": "/Home/Avatar-2.jpg",
+                  "image": "/Portfolio/Newborn.png",
+                  "category": "Newborn",
+                  "views": "940 Views"
+                },
+                {
+                  "id": "styling-a-fashion-shoot",
+                  "slug": "styling-a-fashion-shoot",
+                  "date": "09 AUG 2023",
+                  "fullDate": "August 9, 2023",
+                  "titleLead": "Styling ideas for a bold",
+                  "titleScript": "fashion shoot",
+                  "author": "Emma Clarke",
+                  "avatar": "/Home/Avatar-1.jpg",
+                  "image": "/Portfolio/Fashion.png",
+                  "category": "Fashion",
+                  "views": "1.5K Views"
+                },
+                {
+                  "id": "product-photography-at-home",
+                  "slug": "product-photography-at-home",
+                  "date": "02 AUG 2023",
+                  "fullDate": "August 2, 2023",
+                  "titleLead": "Shooting beautiful product",
+                  "titleScript": "photos at home",
+                  "author": "Justin Burke",
+                  "avatar": "/Home/Avatar-2.jpg",
+                  "image": "/Portfolio/Product.png",
+                  "category": "Product",
+                  "views": "780 Views"
+                }
+              ],
+              "detail": {
+                "introImage": "/Blog/IntroCamera.png",
+                "mainImage": {
+                  "src": "/Blog/ProjectConcept.png",
+                  "alt": "Young photographer holding a vintage camera"
+                },
+                "bottomImage": {
+                  "src": "/Blog/LakePhotographer.png",
+                  "alt": "Photographer shooting a mountain lake"
+                },
+                "conceptsTitle": "Project Concepts",
+                "bodyText": "Lumora Astudio is a full-service photography company providing wedding, newborn, fashion & portfolio photography. Our portfolio of completed work includes highly acclaimed and award-winning projects for clients around the country & globally also.",
+                "concepts": [
+                  "The talent at Lumora Astudio runs wide and deep. Across many markets, geographies.",
+                  "Our team members are some of the finest professionals in the industry.",
+                  "Organized to deliver the most specialized service possible and enriched by the diverse."
+                ]
+              }
+            }
+          }
+        },
+        "Portfolio": {
+          "variants": {
+            "PhotographyPortfolio1": {
+              "subtitle": "OUR PORTFOLIO",
+              "title1": "Lumora Astudio",
+              "titleScript": "All of Your beautiful memories",
+              "description": [
+                "We capture real moments, genuine emotions and timeless stories through our lens.",
+                "Explore our latest work and see how we turn moments into beautiful memories."
+              ],
+              "items": [
+                {
+                  "id": "studio-photography",
+                  "slug": "studio-photography",
+                  "title": "Studio Photography",
+                  "image": "/Portfolio/Studio.png"
+                },
+                {
+                  "id": "wedding-photography",
+                  "slug": "wedding-photography",
+                  "title": "Wedding Photography",
+                  "image": "/Portfolio/Wedding.png"
+                },
+                {
+                  "id": "newborn-photography",
+                  "slug": "newborn-photography",
+                  "title": "Newborn Photography",
+                  "image": "/Portfolio/Newborn.png"
+                },
+                {
+                  "id": "indoor-photography",
+                  "slug": "indoor-photography",
+                  "title": "Indoor Photography",
+                  "image": "/Portfolio/Indoor.png"
+                },
+                {
+                  "id": "outdoor-photography",
+                  "slug": "outdoor-photography",
+                  "title": "Outdoor Photography",
+                  "image": "/Portfolio/Outdoor.png"
+                },
+                {
+                  "id": "fashion-photography",
+                  "slug": "fashion-photography",
+                  "title": "Fashion Photography",
+                  "image": "/Portfolio/Fashion.png"
+                },
+                {
+                  "id": "lifestyle-photography",
+                  "slug": "lifestyle-photography",
+                  "title": "Lifestyle Photography",
+                  "image": "/Portfolio/Lifestyle.png"
+                },
+                {
+                  "id": "product-photography",
+                  "slug": "product-photography",
+                  "title": "Product Photography",
+                  "image": "/Portfolio/Product.png"
+                },
+                {
+                  "id": "event-photography",
+                  "slug": "event-photography",
+                  "title": "Event Photography",
+                  "image": "/Portfolio/Event.png"
+                }
+              ]
+            }
+          }
+        },
+        "PortfolioDetail": {
+          "variants": {
+            "PhotographyPortfolioDetail1": {
+              "detailsTitle1": "Project",
+              "detailsTitle2": "Details",
+              "ratingLabel": "CLIENT RATING",
+              "conceptTitle": "PROJECT CONCEPT",
+              "galleryTitle": "PROJECT GALLERY",
+              "project": {
+                "client": "Elisa & Family",
+                "headingScript": "Photography",
+                "coverImage": "/PortfolioDetail/Main.png",
+                "info": [
+                  {
+                    "icon": "circle-user",
+                    "label": "CLIENT NAME",
+                    "value": "Elisa & Family"
+                  },
+                  {
+                    "icon": "map-pin",
+                    "label": "ADDRESS",
+                    "value": "California, USA"
+                  },
+                  {
+                    "icon": "building",
+                    "label": "PLACE",
+                    "value": "Riverside Nature Park"
+                  },
+                  {
+                    "icon": "lightbulb",
+                    "label": "CONCEPT",
+                    "value": "Outdoor Family"
+                  },
+                  {
+                    "icon": "calendar",
+                    "label": "DATE",
+                    "value": "25 Sep 2023"
+                  }
+                ],
+                "rating": 5,
+                "gear": [
+                  {
+                    "brand": "SONY",
+                    "model": "A7 III"
+                  },
+                  {
+                    "brand": "CANON",
+                    "model": "EOS R6"
+                  }
+                ],
+                "bodyText": "Lumora Astudio is a full-service photography company providing wedding, newborn, fashion & portfolio photography. Our portfolio of completed work includes highly acclaimed and award-winning projects for clients around the country & globally also.",
+                "concepts": [
+                  "The talent at Lumora Astudio runs wide and deep. Across many markets, geographies.",
+                  "Our team members are some of the finest professionals in the industry.",
+                  "Organized to deliver the most specialized service possible and enriched by the diverse."
+                ],
+                "gallery": [
+                  "/PortfolioDetail/Gallery1.png",
+                  "/PortfolioDetail/Gallery2.png",
+                  "/PortfolioDetail/Gallery3.png",
+                  "/PortfolioDetail/Gallery4.png",
+                  "/PortfolioDetail/Gallery5.png",
+                  "/PortfolioDetail/Gallery6.png"
+                ]
+              }
+            }
+          }
+        },
+        "Cta": {
+          "variants": {
+            "PhotographyCta1": {
+              "subtitle": "LET'S CREATE TOGETHER",
+              "title1": "Ready to Capture",
+              "titleScript": "Your Special Moments?",
+              "description": "Whether it's a wedding, event or a personal shoot, our team is here to turn your moments into timeless visuals.",
+              "button": {
+                "text": "BOOK US NOW",
+                "url": "/book-a-shoot"
+              },
+              "bgImage": "/About/CreatortoGether.png"
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "PhotographyTeam1": {
+              "subtitle": "OUR TEAM",
+              "title1": "Our Core Team of",
+              "titleScript": "Photographers",
+              "descriptionLead": "We're deeply passionate about",
+              "descriptionHighlight": "capturing your lovely memories",
+              "descriptionEnd": "in cameras and convey your love for every moment of life as a whole.",
+              "members": [
+                {
+                  "id": "m1",
+                  "name": "Nelson Jameson",
+                  "role": "PHOTOGRAPHER",
+                  "image": "/About/NelsonJameson.png"
+                },
+                {
+                  "id": "m2",
+                  "name": "Ellie Duncan",
+                  "role": "PHOTOGRAPHER",
+                  "image": "/About/EllieDuncan.png"
+                },
+                {
+                  "id": "m3",
+                  "name": "Maxim Alexander",
+                  "role": "CEO, KIMONO AGENCY",
+                  "image": "/About/MaximAlexander.png"
+                },
+                {
+                  "id": "m4",
+                  "name": "Sarah Mitchell",
+                  "role": "PHOTOGRAPHER",
+                  "image": "/About/SarahMitchell.png"
+                },
+                {
+                  "id": "m5",
+                  "name": "David Wilson",
+                  "role": "PHOTOGRAPHER",
+                  "image": "/About/DavidWilson.png"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "PhotographyFaq1": {
+              "subtitle": "FAQ",
+              "title1": "Frequently Asked",
+              "titleScript": "Questions",
+              "description": "Find answers to the most common questions about our photography services, booking process, pricing and more. If you still need help, feel free to contact our team anytime.",
+              "groupTitle": "General Questions",
+              "faqGroups": [
+                [
+                  {
+                    "id": "q1-1",
+                    "question": "How long have you been a photographer?",
+                    "answer": "We have been working in the photography industry for over 10 years, capturing weddings, newborn, fashion and portfolio photography. Our experience allows us to create beautiful, high-quality images that tell your unique story."
+                  },
+                  {
+                    "id": "q1-2",
+                    "question": "Do you edit all of your photographs?",
+                    "answer": "Yes. Every image we deliver is carefully selected and professionally edited for colour, light and tone so your gallery feels consistent and timeless."
+                  },
+                  {
+                    "id": "q1-3",
+                    "question": "Do you work with a second photographer?",
+                    "answer": "For weddings and large events we usually work with a second photographer, so no important moment or angle is missed."
+                  },
+                  {
+                    "id": "q1-4",
+                    "question": "Do you have an assistant?",
+                    "answer": "Yes, an assistant joins us on most shoots to help with lighting, equipment and keeping everything running smoothly."
+                  },
+                  {
+                    "id": "q1-5",
+                    "question": "Do you also provide video services?",
+                    "answer": "We do. Our team offers wedding cinematography, event films and drone coverage alongside photography."
+                  },
+                  {
+                    "id": "q1-6",
+                    "question": "Do you have past clients we can speak to as references?",
+                    "answer": "Of course. We are happy to connect you with past clients who can share their experience of working with us."
+                  }
+                ],
+                [
+                  {
+                    "id": "q2-1",
+                    "question": "Are our digital files watermarked?",
+                    "answer": "No. The final digital files you receive are high resolution and free from any watermark."
+                  },
+                  {
+                    "id": "q2-2",
+                    "question": "How many pictures will we receive?",
+                    "answer": "It depends on the package and length of the shoot. A full-day wedding typically includes several hundred edited images."
+                  },
+                  {
+                    "id": "q2-3",
+                    "question": "How long does it take before we receive our products and photographs?",
+                    "answer": "Sneak peeks are shared within a week. The complete edited gallery is usually delivered within 3 to 4 weeks."
+                  }
+                ]
+              ],
+              "image": "/Faq/FaqPhotographer.png",
+              "card": {
+                "image": {
+                  "src": "/Faq/FaqCamera.png",
+                  "alt": "Professional camera on a table"
+                },
+                "title": "FAQ",
+                "description": "Here you'll find answers to the most common questions about our photography services, booking process and more."
+              }
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "PhotographyContact1": {
+              "subtitle": "CONTACT US",
+              "title1": "Drop Me a",
+              "titleScript": "Line",
+              "description": "Have a question, want to book a session, or need more information? Fill out the form below and we'll get back to you as soon as possible.",
+              "successMessage": "Thank you! Your message has been noted.",
+              "form": {
+                "namePlaceholder": "Your Name*",
+                "emailPlaceholder": "Your Email*",
+                "subjectPlaceholder": "Subject",
+                "topicPlaceholder": "Select an option",
+                "topics": [
+                  "General Inquiry",
+                  "Book a Session",
+                  "Pricing & Packages",
+                  "Collaboration",
+                  "Other"
+                ],
+                "messagePlaceholder": "Your Message*",
+                "requiredNote": "* All fields are required!",
+                "buttonText": "Send Message"
+              },
+              "infoCard": {
+                "subtitle": "GET IN TOUCH",
+                "title1": "Let's Create",
+                "titleScript": "Beautiful Memories",
+                "description": "Have a question, want to book a session, or need more information? Feel free to reach out — we'd love to hear from you.",
+                "addressTitle": "Address",
+                "phoneTitle": "Phone",
+                "emailTitle": "Email",
+                "followTitle": "Follow Us"
+              },
+              "socialLinks": [
+                {
+                  "id": "cs-facebook",
+                  "icon": "facebook",
+                  "label": "Facebook",
+                  "url": "#"
+                },
+                {
+                  "id": "cs-twitter",
+                  "icon": "twitter",
+                  "label": "Twitter",
+                  "url": "#"
+                },
+                {
+                  "id": "cs-instagram",
+                  "icon": "instagram",
+                  "label": "Instagram",
+                  "url": "#"
+                },
+                {
+                  "id": "cs-pinterest",
+                  "icon": "pinterest",
+                  "label": "Pinterest",
+                  "url": "#"
+                },
+                {
+                  "id": "cs-dribbble",
+                  "icon": "dribbble",
+                  "label": "Dribbble",
+                  "url": "#"
+                }
+              ],
+              "images": {
+                "photo": {
+                  "src": "/Contact/ContactPhotographer.png",
+                  "alt": "Photographer capturing a moment at golden hour"
+                },
+                "photoMobile": "/Contact/ContactPhotographerTop.png",
+                "sketch": "/Contact/CameraSketch.png"
+              },
+              "map": {
+                "query": "39.7990,-89.6440",
+                "zoom": 5
+              }
+            }
+          }
+        },
+        "Booking": {
+          "variants": {
+            "PhotographyBooking1": {
+              "subtitle": "BOOK APPOINTMENT",
+              "title1": "Capture Your",
+              "titleScript": "Special Moments",
+              "description": "Book your photography session with us and let our team create timeless memories that you'll cherish forever.",
+              "image": "/Booking/BookingCamera.png",
+              "form": {
+                "subtitle": "BOOKING FORM",
+                "title": "Book Your Appointment",
+                "description": "Please confirm that you would like to request the following appointment:",
+                "namePlaceholder": "Name*",
+                "emailPlaceholder": "E-mail*",
+                "phonePlaceholder": "Phone Number",
+                "addressPlaceholder": "Address",
+                "servicePlaceholder": "Service Type",
+                "packagePlaceholder": "Select Photography Package",
+                "packages": [
+                  "Basic Package - 2 Hours",
+                  "Standard Package - 4 Hours",
+                  "Premium Package - Full Day"
+                ],
+                "locations": [
+                  "Indoor",
+                  "Outdoor"
+                ],
+                "buttonText": "Book Appointment",
+                "successMessage": "Your appointment request has been noted."
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Header": "PhotographyHeader1",
+          "Footer": "PhotographyFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "PhotographyHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "PhotographyAboutUs1"
+              },
+              {
+                "key": "Services",
+                "component": "PhotographyServices1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "PhotographyWhyChooseUs1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "PhotographyTestimonials1"
+              },
+              {
+                "key": "Blogs",
+                "component": "PhotographyBlogs1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "PhotographyWhyChooseUs2",
+                "variant": "PhotographyWhyChooseUs1"
+              },
+              {
+                "key": "Cta",
+                "component": "PhotographyCta1"
+              },
+              {
+                "key": "Team",
+                "component": "PhotographyTeam1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Services",
+                "component": "PhotographyServices1",
+                "props": {
+                  "showAll": true
+                }
+              }
+            ]
+          },
+          "serviceDetail": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "ServiceDetail",
+                "component": "PhotographyServiceDetail1"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Blogs",
+                "component": "PhotographyBlogs2",
+                "variant": "PhotographyBlogs1",
+                "props": {
+                  "subtitle": "LATEST BLOG"
+                }
+              }
+            ]
+          },
+          "blogDetail": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "BlogDetail",
+                "component": "PhotographyBlogDetail1",
+                "variant": "PhotographyBlogs1"
+              }
+            ]
+          },
+          "portfolio": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Portfolio",
+                "component": "PhotographyPortfolio1"
+              }
+            ]
+          },
+          "portfolioDetail": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "PortfolioDetail",
+                "component": "PhotographyPortfolioDetail1"
+              }
+            ]
+          },
+          "booking": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Booking",
+                "component": "PhotographyBooking1"
+              }
+            ]
+          },
+          "faq": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Faq",
+                "component": "PhotographyFaq1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Contact",
+                "component": "PhotographyContact1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "site": {
+    "localPhotos": {
+      "alpineLake": "/images/alpine-lake-golden-hour.png",
+      "stormRuins": "/images/storm-ruins.png",
+      "mistyMountains": "/images/misty-mountains.png"
+    },
+    "artist": {
+      "name": "Elena Rostova",
+      "tagline": "Fine Art & Editorial",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=85",
+      "email": "hello@example.com",
+      "location": "Based in Zürich · Available worldwide"
+    },
+    "navItems": [
+      {
+        "href": "/",
+        "label": "Home",
+        "icon": "✧"
+      },
+      {
+        "href": "/portfolio",
+        "label": "Portfolio Gallery",
+        "icon": "▦"
+      },
+      {
+        "href": "/gear",
+        "label": "Gear & Lenses",
+        "icon": "◎"
+      },
+      {
+        "href": "/about",
+        "label": "About Me",
+        "icon": "♙"
+      },
+      {
+        "href": "/services",
+        "label": "Services",
+        "icon": "☷"
+      },
+      {
+        "href": "/pricing",
+        "label": "Pricing",
+        "icon": "◇"
+      },
+      {
+        "href": "/booking",
+        "label": "Contact Us",
+        "icon": "➤"
+      }
+    ],
+    "heroSlides": [
+      {
+        "src": "/images/alpine-lake-golden-hour.png",
+        "alt": "Alpine lake at golden hour",
+        "label": "Alpine Lake at Golden Hour"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=85",
+        "alt": "Mountain lake at dawn",
+        "label": "Mountain Lake"
+      },
+      {
+        "src": "/images/storm-ruins.png",
+        "alt": "Ancient ruins beneath a storm",
+        "label": "Storm Over the Ruins"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=85",
+        "alt": "Travel landscape",
+        "label": "Wander"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=2200&q=85",
+        "alt": "Ocean wave",
+        "label": "Ocean"
+      }
+    ],
+    "categories": [
+      {
+        "slug": "portraits",
+        "title": "Portraits",
+        "kicker": "People & Emotions",
+        "intro": "Quiet, honest portraits made with natural light and a lot of patience — the moment just before or after the pose.",
+        "cover": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85"
+      },
+      {
+        "slug": "landscapes",
+        "title": "Landscapes",
+        "kicker": "Wander & Discover",
+        "intro": "Mountains, lakes and weather at the edges of the day. Long walks, early alarms and waiting for light.",
+        "cover": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+      },
+      {
+        "slug": "architecture",
+        "title": "Architecture",
+        "kicker": "Form & Perspective",
+        "intro": "Lines, shadow and geometry — buildings treated as sculpture, stripped back to shape and light.",
+        "cover": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1000&q=85"
+      },
+      {
+        "slug": "nature",
+        "title": "Nature",
+        "kicker": "Small Wonders",
+        "intro": "Forests, leaves and small living details that ask you to slow down and look a little closer.",
+        "cover": "https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&w=1000&q=85"
+      }
+    ],
+    "photos": [
+      {
+        "id": "p1",
+        "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1600&q=85",
+        "title": "Golden Gaze",
+        "location": "Lisbon, Portugal",
+        "year": 2025,
+        "category": "portraits",
+        "settings": "85mm · f/1.8 · 1/500s · ISO 100"
+      },
+      {
+        "id": "p2",
+        "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1600&q=85",
+        "title": "Soft Morning",
+        "location": "Paris, France",
+        "year": 2024,
+        "category": "portraits",
+        "settings": "50mm · f/2 · 1/320s · ISO 200"
+      },
+      {
+        "id": "p3",
+        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=85",
+        "title": "The Architect",
+        "location": "Berlin, Germany",
+        "year": 2024,
+        "category": "portraits",
+        "settings": "85mm · f/2.2 · 1/250s · ISO 160"
+      },
+      {
+        "id": "p4",
+        "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1600&q=85",
+        "title": "Window Light",
+        "location": "Vienna, Austria",
+        "year": 2023,
+        "category": "portraits",
+        "settings": "50mm · f/1.4 · 1/200s · ISO 400"
+      },
+      {
+        "id": "p5",
+        "src": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=85",
+        "title": "Between Frames",
+        "location": "Milan, Italy",
+        "year": 2025,
+        "category": "portraits",
+        "settings": "105mm · f/2.8 · 1/400s · ISO 100"
+      },
+      {
+        "id": "p6",
+        "src": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1600&q=85",
+        "title": "Still",
+        "location": "Copenhagen, Denmark",
+        "year": 2022,
+        "category": "portraits",
+        "settings": "85mm · f/1.8 · 1/160s · ISO 320"
+      },
+      {
+        "id": "l1",
+        "src": "/images/alpine-lake-golden-hour.png",
+        "title": "Alpine Lake at Golden Hour",
+        "location": "Bernese Alps, Switzerland",
+        "year": 2026,
+        "category": "landscapes",
+        "settings": "24mm · f/11 · 1/60s · ISO 64"
+      },
+      {
+        "id": "l2",
+        "src": "/images/misty-mountains.png",
+        "title": "White Silence",
+        "location": "Dolomites, Italy",
+        "year": 2025,
+        "category": "landscapes",
+        "settings": "70mm · f/8 · 1/250s · ISO 100"
+      },
+      {
+        "id": "l3",
+        "src": "/images/storm-ruins.png",
+        "title": "Storm Over the Ruins",
+        "location": "Peloponnese, Greece",
+        "year": 2025,
+        "category": "landscapes",
+        "settings": "16mm · f/8 · 4s · ISO 100"
+      },
+      {
+        "id": "l4",
+        "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85",
+        "title": "Summit Light",
+        "location": "Patagonia, Chile",
+        "year": 2024,
+        "category": "landscapes",
+        "settings": "35mm · f/9 · 1/200s · ISO 100"
+      },
+      {
+        "id": "l5",
+        "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=85",
+        "title": "Above the Clouds",
+        "location": "Madeira, Portugal",
+        "year": 2023,
+        "category": "landscapes",
+        "settings": "24mm · f/10 · 1/125s · ISO 100"
+      },
+      {
+        "id": "l6",
+        "src": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=85",
+        "title": "Glass Water",
+        "location": "Lake Bled, Slovenia",
+        "year": 2024,
+        "category": "landscapes",
+        "settings": "24mm · f/11 · 1/30s · ISO 64"
+      },
+      {
+        "id": "l7",
+        "src": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=85",
+        "title": "Starlit Ridge",
+        "location": "Banff, Canada",
+        "year": 2022,
+        "category": "landscapes",
+        "settings": "14mm · f/2.8 · 20s · ISO 3200"
+      },
+      {
+        "id": "l8",
+        "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "title": "Last Rays",
+        "location": "Tuscany, Italy",
+        "year": 2023,
+        "category": "landscapes",
+        "settings": "50mm · f/8 · 1/320s · ISO 100"
+      },
+      {
+        "id": "a1",
+        "src": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=85",
+        "title": "Curved Silence",
+        "location": "Valencia, Spain",
+        "year": 2025,
+        "category": "architecture",
+        "settings": "24mm · f/8 · 1/500s · ISO 100"
+      },
+      {
+        "id": "a2",
+        "src": "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1600&q=85",
+        "title": "Vertical City",
+        "location": "Hong Kong",
+        "year": 2024,
+        "category": "architecture",
+        "settings": "16mm · f/11 · 1/250s · ISO 200"
+      },
+      {
+        "id": "a3",
+        "src": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1600&q=85",
+        "title": "White Geometry",
+        "location": "Lisbon, Portugal",
+        "year": 2023,
+        "category": "architecture",
+        "settings": "35mm · f/8 · 1/640s · ISO 100"
+      },
+      {
+        "id": "a4",
+        "src": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?auto=format&fit=crop&w=1600&q=85",
+        "title": "Steel & Sky",
+        "location": "Chicago, USA",
+        "year": 2022,
+        "category": "architecture",
+        "settings": "24mm · f/9 · 1/400s · ISO 100"
+      },
+      {
+        "id": "a5",
+        "src": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1600&q=85",
+        "title": "Night Grid",
+        "location": "New York, USA",
+        "year": 2024,
+        "category": "architecture",
+        "settings": "35mm · f/5.6 · 2s · ISO 200"
+      },
+      {
+        "id": "n1",
+        "src": "https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&w=1600&q=85",
+        "title": "Green Hour",
+        "location": "Black Forest, Germany",
+        "year": 2025,
+        "category": "nature",
+        "settings": "100mm macro · f/4 · 1/160s · ISO 400"
+      },
+      {
+        "id": "n2",
+        "src": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=85",
+        "title": "Morning Visitor",
+        "location": "Scottish Highlands",
+        "year": 2024,
+        "category": "nature",
+        "settings": "400mm · f/5.6 · 1/1000s · ISO 800"
+      },
+      {
+        "id": "n3",
+        "src": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1600&q=85",
+        "title": "Forest Path",
+        "location": "Hoh Rainforest, USA",
+        "year": 2023,
+        "category": "nature",
+        "settings": "24mm · f/8 · 1/15s · ISO 200"
+      },
+      {
+        "id": "n4",
+        "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85",
+        "title": "Cathedral of Trees",
+        "location": "Bavaria, Germany",
+        "year": 2024,
+        "category": "nature",
+        "settings": "35mm · f/9 · 1/60s · ISO 200"
+      },
+      {
+        "id": "n5",
+        "src": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1600&q=85",
+        "title": "Petals",
+        "location": "Kyoto, Japan",
+        "year": 2022,
+        "category": "nature",
+        "settings": "100mm macro · f/3.5 · 1/250s · ISO 200"
+      },
+      {
+        "id": "n6",
+        "src": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1600&q=85",
+        "title": "Falling Water",
+        "location": "Iceland",
+        "year": 2023,
+        "category": "nature",
+        "settings": "24mm · f/16 · 1s · ISO 50"
+      }
+    ],
+    "gear": [
+      {
+        "group": "Camera Bodies",
+        "items": [
+          {
+            "name": "Sony α7R V",
+            "note": "61MP full-frame — landscapes & fine art prints",
+            "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=85"
+          },
+          {
+            "name": "Fujifilm X100VI",
+            "note": "Everyday street & travel companion",
+            "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=900&q=85"
+          }
+        ]
+      },
+      {
+        "group": "Lenses",
+        "items": [
+          {
+            "name": "FE 85mm f/1.4 GM II",
+            "note": "Portrait workhorse, creamy fall-off",
+            "image": "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?auto=format&fit=crop&w=900&q=85"
+          },
+          {
+            "name": "FE 24-70mm f/2.8 GM II",
+            "note": "Editorial & commissioned work",
+            "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=900&q=85"
+          }
+        ]
+      }
+    ],
+    "gearExtras": [
+      {
+        "label": "FE 16-35mm f/2.8 GM",
+        "kind": "Lens"
+      },
+      {
+        "label": "FE 100-400mm GM",
+        "kind": "Lens"
+      },
+      {
+        "label": "Gitzo Systematic Tripod",
+        "kind": "Support"
+      },
+      {
+        "label": "NiSi V7 Filter Kit",
+        "kind": "Filters"
+      },
+      {
+        "label": "Profoto B10X Plus",
+        "kind": "Lighting"
+      },
+      {
+        "label": "Lightroom Classic + Capture One",
+        "kind": "Editing"
+      }
+    ],
+    "services": [
+      {
+        "name": "Portrait Session",
+        "tag": "People & Stories",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=85",
+        "cta": "Enquire",
+        "price": "450",
+        "unit": "per session",
+        "description": "A relaxed, natural-light portrait session for individuals, couples or creatives.",
+        "features": [
+          "2 hours on location",
+          "1 outfit change",
+          "25 retouched images",
+          "Private online gallery"
+        ],
+        "featured": false
+      },
+      {
+        "name": "Editorial & Brand",
+        "tag": "Brands & Publications",
+        "image": "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?auto=format&fit=crop&w=900&q=85",
+        "cta": "Enquire",
+        "price": "1,200",
+        "unit": "half day",
+        "description": "Story-driven imagery for magazines, brands, campaigns and websites.",
+        "features": [
+          "4 hours, up to 2 locations",
+          "Creative direction & moodboard",
+          "60 retouched images",
+          "Commercial usage licence"
+        ],
+        "featured": true
+      },
+      {
+        "name": "Fine Art Prints",
+        "tag": "Art That Lasts",
+        "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
+        "cta": "View Prints",
+        "price": "180",
+        "unit": "from",
+        "description": "Museum-grade archival prints of the landscape and nature collections.",
+        "features": [
+          "Hahnemühle cotton rag paper",
+          "Signed & numbered editions",
+          "Sizes from 30×40 to 100×150 cm",
+          "Worldwide shipping"
+        ],
+        "featured": false
+      }
+    ],
+    "processSteps": [
+      {
+        "n": "01",
+        "title": "Let's talk",
+        "text": "Tell me about your idea, date and location.",
+        "icon": "chat"
+      },
+      {
+        "n": "02",
+        "title": "Plan together",
+        "text": "We shape a moodboard, timing and light.",
+        "icon": "plan"
+      },
+      {
+        "n": "03",
+        "title": "Shoot",
+        "text": "A calm, unhurried session — no stiff posing.",
+        "icon": "camera"
+      },
+      {
+        "n": "04",
+        "title": "Receive",
+        "text": "A curated, hand-edited gallery within 2 weeks.",
+        "icon": "gallery"
+      }
+    ],
+    "stats": [
+      {
+        "icon": "✳",
+        "value": "08",
+        "label": "Years Behind the Lens"
+      },
+      {
+        "icon": "◎",
+        "value": "25",
+        "label": "Countries Explored"
+      },
+      {
+        "icon": "♡",
+        "value": "500",
+        "label": "Moments Captured"
+      }
+    ],
+    "philosophy": [
+      {
+        "n": "I.",
+        "title": "Light first",
+        "text": "I plan every image around light — the hour, the weather, the window. Light tells the story; I just frame it."
+      },
+      {
+        "n": "II.",
+        "title": "Honesty over perfection",
+        "text": "I'd rather keep the wind in your hair than a flawless pose. Real moments age better than perfect ones."
+      },
+      {
+        "n": "III.",
+        "title": "Slow seeing",
+        "text": "Fewer frames, more attention. Waiting is part of the craft — for a glance, a break in the clouds, a quiet second."
+      }
+    ],
+    "aboutPage": {
+      "heroSlides": [
+        {
+          "src": "/images/alpine-lake-golden-hour.png",
+          "label": "Bernese Alps"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=2000&q=85",
+          "label": "On the trail"
+        },
+        {
+          "src": "/images/misty-mountains.png",
+          "label": "Dolomites"
+        },
+        {
+          "src": "/images/storm-ruins.png",
+          "label": "Peloponnese"
+        }
+      ],
+      "collage": {
+        "portrait": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85",
+        "peak": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=800&q=85",
+        "camera": "https://images.unsplash.com/photo-1495121553079-4c61bcce1894?auto=format&fit=crop&w=900&q=85",
+        "lake": "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?auto=format&fit=crop&w=1000&q=85"
+      },
+      "quote": [
+        "I don't just take pictures.",
+        "I preserve feelings."
+      ],
+      "chapters": [
+        {
+          "n": "01.",
+          "title": "Explore",
+          "text": "Chasing light to the quiet edges of the map.",
+          "src": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=1000&q=85"
+        },
+        {
+          "n": "02.",
+          "title": "Feel",
+          "text": "Waiting for the moment that says everything.",
+          "src": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1000&q=85"
+        },
+        {
+          "n": "03.",
+          "title": "Create",
+          "text": "Shaping honest frames that last a lifetime.",
+          "src": "https://images.unsplash.com/photo-1439853949127-fa647821eba0?auto=format&fit=crop&w=1000&q=85"
+        }
+      ]
+    },
+    "servicesPage": {
+      "heroImage": "/images/alpine-lake-golden-hour.png",
+      "behindTheScenes": [
+        {
+          "src": "https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&w=1600&q=85",
+          "caption": "Golden hour on the waterfront"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?auto=format&fit=crop&w=1600&q=85",
+          "caption": "Street editorial, Hong Kong"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1520390138845-fd2d229dd553?auto=format&fit=crop&w=1600&q=85",
+          "caption": "Studio light setup"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1600&q=85",
+          "caption": "Autumn forest session"
+        }
+      ],
+      "processImage": "/images/misty-mountains.png",
+      "ctaImage": "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?auto=format&fit=crop&w=2000&q=85",
+      "ctaFacts": [
+        {
+          "icon": "pin",
+          "title": "Based in Zürich",
+          "text": "Available worldwide"
+        },
+        {
+          "icon": "camera",
+          "title": "Flexible dates",
+          "text": "Outdoor & studio sessions"
+        },
+        {
+          "icon": "send",
+          "title": "Quick response",
+          "text": "Usually within 24 hours"
+        }
+      ]
+    }
+  }
+}

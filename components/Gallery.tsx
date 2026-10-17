@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { categories, type CategorySlug, type Photo } from "@/lib/data";
+import { categories, type CategorySlug, type Photo } from "@/site-data";
 
 type Props = { photos: Photo[]; showFilters?: boolean };
 

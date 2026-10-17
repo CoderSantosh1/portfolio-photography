@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { btnArrowDark, btnDark, kicker, section, sectionTitle } from "@/lib/ui";
+import { btnArrowDark, btnDark, kicker, section, sectionTitle } from "@/components/ui";
 
 export default function NotFound() {
   return (

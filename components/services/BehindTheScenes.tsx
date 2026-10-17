@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import { servicesPage } from "@/lib/data";
+import { servicesPage } from "@/site-data";
 import Icon from "@/components/motion/Icon";
 
 const SLIDE_MS = 3500;

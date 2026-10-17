@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import PageHeader from "@/components/PageHeader";
 import BookingForm from "@/components/BookingForm";
-import { artist, localPhotos } from "@/lib/data";
-import { kicker, section, sectionTitle } from "@/lib/ui";
+import { artist, localPhotos } from "@/site-data";
+import { kicker, section, sectionTitle } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Book a Session" };
 

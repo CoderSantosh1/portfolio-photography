@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { services } from "@/lib/data";
-import { kicker, textlink } from "@/lib/ui";
+import { services } from "@/site-data";
+import { kicker, textlink } from "@/components/ui";
 import Reveal from "@/components/motion/Reveal";
 
 const fadeUp =

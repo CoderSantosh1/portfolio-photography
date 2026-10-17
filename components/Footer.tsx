@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { gutter, textlink } from "@/lib/ui";
+import { gutter, textlink } from "@/components/ui";
 
 export default function Footer() {
   return (

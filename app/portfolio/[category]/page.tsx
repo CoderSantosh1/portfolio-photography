@@ -3,8 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
 import Gallery from "@/components/Gallery";
-import { categories, getCategory, photosIn } from "@/lib/data";
-import { section } from "@/lib/ui";
+import { categories, getCategory, photosIn } from "@/site-data";
+import { section } from "@/components/ui";
 
 type Props = { params: Promise<{ category: string }> };
 

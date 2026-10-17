@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { aboutPage, stats } from "@/lib/data";
+import { aboutPage, stats } from "@/site-data";
 import { useInView } from "@/components/motion/useInView";
 
 // Counts from 0 to the target once `start` flips true, keeping leading zeros ("08")

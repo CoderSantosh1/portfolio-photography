@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import Gear from "@/components/Gear";
-import { section } from "@/lib/ui";
+import { section } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Gear & Lenses" };
 
