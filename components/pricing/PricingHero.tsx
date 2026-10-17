@@ -10,6 +10,10 @@ export default function PricingHero() {
       alt="Soft morning light over misty mountains"
       target="#pricing"
       targetLabel="Scroll to pricing"
+      breadcrumb={[
+        { label: "HOME", href: "/" },
+        { label: "PRICING" },
+      ]}
     />
   );
 }

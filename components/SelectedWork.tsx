@@ -52,10 +52,14 @@ export default function SelectedWork() {
 
       {/* Photography cards */}
       {visibleCategories.map((c) => (
-        <Link
+      <Link
           key={c.slug}
           className={`group relative isolate block h-[200px] min-w-0 overflow-hidden rounded-[3px] bg-[#d9d2c6] text-white min-[421px]:h-[250px] md:h-auto ${
             placement[c.slug] ?? ""
+          } ${
+            c.slug === "architecture"
+              ? "col-span-2 mx-auto w-1/2 md:col-span-1 md:mx-0 md:w-full"
+              : ""
           }`}
           href={`/portfolio/${c.slug}`}
         >

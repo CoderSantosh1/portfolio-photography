@@ -61,9 +61,18 @@ export default function AboutHero() {
           </Line>
         </h2>
 
-        <p className="mt-6 flex animate-fade-up flex-wrap items-center gap-3 text-[9px] tracking-[3px] text-white/85 [animation-delay:900ms]">
-          PLACES <span className="text-amber">·</span> PEOPLE <span className="text-amber">·</span> EMOTIONS
-        </p>
+            <nav
+            aria-label="Breadcrumb"
+            className="mb-6 flex items-center gap-2 text-[10px] tracking-[1.5px] text-white/70 mt-5"
+          >
+        <a href="/" className="transition-colors hover:text-[#f18a2d]">
+          HOME
+        </a>
+        <span className="text-white/40">/</span>
+        <span aria-current="page" className="text-white">
+          ABOUT
+        </span>
+      </nav>
       </div>
      
     </section>

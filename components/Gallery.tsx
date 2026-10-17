@@ -71,31 +71,32 @@ export default function Gallery({ photos, showFilters = true }: Props) {
         </div>
       )}
 
-      <div className="columns-2 gap-2.5 md:columns-3 md:gap-3.5">
-        {visible.map((p, i) => (
-          <button
-            key={p.id}
-            type="button"
-            className="group relative mb-2.5 block w-full animate-fade-up cursor-zoom-in break-inside-avoid overflow-hidden rounded-[3px] border-0 bg-[#d9d2c6] p-0 md:mb-3.5"
-            onClick={() => setOpen(i)}
-            aria-label={`Open ${p.title}`}
-          >
-            <Image
-              className="h-auto w-full saturate-[.9] transition duration-700 ease-[cubic-bezier(.2,.7,.2,1)] group-hover:scale-105 group-hover:saturate-[1.05]"
-              src={p.src}
-              alt={p.title}
-              width={800}
-              height={i % 3 === 1 ? 1000 : 640}
-              sizes="(max-width: 768px) 50vw, 30vw"
-            />
-            <span className="absolute inset-0 bg-gradient-to-b from-transparent from-55% to-[#080c0ec7] transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100 md:group-focus-visible:opacity-100" />
-            <span className="absolute right-4 bottom-[9px] left-2.5 z-[1] grid gap-[3px] text-left text-white transition duration-300 md:bottom-3.5 md:left-4 md:translate-y-2 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 md:group-focus-visible:translate-y-0 md:group-focus-visible:opacity-100">
-              {/* <small className="text-[9px] tracking-[1.2px] text-peach uppercase">{p.location}</small>
-              <strong className="font-serif text-[15px] font-medium md:text-xl">{p.title}</strong> */}
-            </span>
-          </button>
-        ))}
-      </div>
+    
+<div className="columns-2 gap-2.5 md:columns-3 md:gap-3.5">
+  {visible.map((p, i) => (
+    <button
+      key={p.id}
+      type="button"
+      className={`group relative mb-2.5 block w-full animate-fade-up cursor-zoom-in break-inside-avoid overflow-hidden rounded-[3px] border-0 bg-[#d9d2c6] p-0 md:mb-3.5 ${
+        i % 2 === 1 ? "mt-5 md:mt-0" : ""
+      }`}
+      onClick={() => setOpen(i)}
+      aria-label={`Open ${p.title}`}
+    >
+      <Image
+        className="h-auto w-full saturate-[.9] transition duration-700 ease-[cubic-bezier(.2,.7,.2,1)] group-hover:scale-105 group-hover:saturate-[1.05]"
+        src={p.src}
+        alt={p.title}
+        width={800}
+        height={i % 3 === 1 ? 1000 : 640}
+        sizes="(max-width: 768px) 50vw, 30vw"
+      />
+
+      <span className="absolute inset-0 bg-gradient-to-b from-transparent from-55% to-[#080c0ec7] transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100 md:group-focus-visible:opacity-100" />
+    </button>
+  ))}
+</div>
+
 
       {active && (
         <div

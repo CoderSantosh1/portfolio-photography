@@ -9,7 +9,7 @@ const shownUp = "translate-y-3 opacity-0 transition duration-700 group-data-[sho
 
 export default function PricingCards() {
   return (
-    <section id="pricing" className="grid scroll-mt-6 grid-cols-1 gap-4 px-5 py-5 md:grid-cols-2 md:px-[2%] lg:grid-cols-3">
+    <section id="pricing" className="grid scroll-mt-6 grid-cols-1 gap-4 px-16 py-16 md:grid-cols-2 md:px-[2%] lg:grid-cols-3">
       {services.map((s, i) => {
         const href = s.cta === "View Prints" ? "/portfolio/landscapes" : `/booking?service=${encodeURIComponent(s.name)}`;
         return (

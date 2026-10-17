@@ -11,11 +11,11 @@ export default function Sidebar({ open }: { open: boolean }) {
 
   return (
     <aside
-      className={`fixed inset-y-0 left-0 z-50 flex w-[min(310px,86vw)] flex-col  border-r border-ink/[.07] bg-paper px-5 pt-2 pb-4 transition-transform duration-300 md:w-[220px] md:translate-x-0 md:shadow-none lg:w-[258px] lg:px-6 lg:pt-9 ${
+      className={`fixed inset-y-0 left-0 z-50 flex w-[min(310px,86vw)] flex-col overflow-hidden border-r border-ink/[.07] bg-paper px-5 pt-2 pb-4 transition-transform duration-300 md:w-[220px] md:translate-x-0 md:shadow-none lg:w-[258px] lg:px-6 lg:pt-9 ${
         open ? "translate-x-0 shadow-[12px_0_35px_#0002]" : "-translate-x-[105%]"
       }`}
     >
-      <div className="mb-6 text-center">
+      <div className="mb-6 shrink-0 text-center">
         <div className="relative mx-auto mb-3.5 size-[94px] rounded-full border-[1.5px] border-[#e9b65f] p-[5px] lg:size-28">
           <Image
             className="size-full rounded-full border-[3px] border-white object-cover"
@@ -33,7 +33,11 @@ export default function Sidebar({ open }: { open: boolean }) {
         </span>
       </div>
 
-      <nav className="grid gap-[5px]" aria-label="Main navigation">
+      {/* Only the menu scrolls; profile and copyright stay put */}
+      <nav
+        className="-mx-1 grid min-h-0 flex-1 content-start gap-[5px] overflow-y-auto overscroll-contain px-1 pb-2 [scrollbar-width:thin] [scrollbar-color:#d76b1655_transparent]"
+        aria-label="Main navigation"
+      >
         {navItems.map((item) => {
           const active = isActive(item.href);
           return (
@@ -53,7 +57,7 @@ export default function Sidebar({ open }: { open: boolean }) {
         })}
       </nav>
 
-      <div className="mt-auto pt-0 text-center">
+      <div className="shrink-0 pt-3 text-center">
         
         <div className="mb-[18px] h-px bg-ink/[.12]" />
         <div className="text-[9px] leading-[1.8] tracking-[.6px] text-[#777]">

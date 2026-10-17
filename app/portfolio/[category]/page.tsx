@@ -34,6 +34,11 @@ export default async function CategoryPage({ params }: Props) {
         title={<>{category.title}<em>.</em></>}
         text={category.intro}
         image={list[0]?.src ?? category.cover}
+        breadcrumb={[
+          { label: "HOME", href: "/" },
+          { label: "PORTFOLIO GALLERY", href: "/portfolio" },
+          { label: category.title.toUpperCase() },
+        ]}
       />
 
       <section className={section}>
