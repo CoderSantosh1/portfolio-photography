@@ -26,15 +26,6 @@ export default function Gear() {
                 <span className="ml-2 font-serif italic text-rust">.</span>
               </h3>
             </div>
-
-            <div className="flex flex-col items-end gap-2">
-              <span className="font-serif text-3xl italic text-rust/70">
-                0{groupIndex + 1}
-              </span>
-              <span className="text-[8px] tracking-[2px] text-muted">
-                COLLECTION
-              </span>
-            </div>
           </div>
 
           {/* Photography cards */}

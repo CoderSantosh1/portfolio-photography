@@ -34,9 +34,7 @@ export default function ServiceOffer() {
                   fill
                   sizes="(max-width: 768px) 100vw, 45vw"
                 />
-                <span className="absolute top-5 left-5 font-serif text-5xl text-white/90 italic [text-shadow:0_2px_16px_#0006]">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
+               
               </Reveal>
 
               <Reveal variant="fade" className={flip ? "md:order-1" : ""}>
