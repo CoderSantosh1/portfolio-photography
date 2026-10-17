@@ -25,7 +25,7 @@ type Props = {
   breadcrumb?: BreadcrumbItem[];
 };
 
-// Light hero: photo on the right fading into paper behind the headline
+// Mobile: dark photo banner (same as PageHeader). md+: photo on the right fading into paper
 export default function SplitHero({
   kicker,
   lines,
@@ -37,10 +37,10 @@ export default function SplitHero({
   breadcrumb,
 }: Props) {
   return (
-    <section className="relative isolate flex min-h-[520px] flex-col justify-center overflow-hidden px-6 py-16 md:min-h-[440px] md:px-[6%]">
+    <section className="relative isolate flex min-h-[300px] flex-col justify-end overflow-hidden bg-[#111] px-6 pt-20 pb-[46px] text-white md:min-h-[440px] md:justify-center md:bg-transparent md:px-[6%] md:py-16 md:text-ink">
       {/* Background image */}
       <Image
-        className="-z-20 animate-ken-burns object-cover object-[70%_center] motion-reduce:animate-none"
+        className="-z-20 animate-ken-burns object-cover object-[center_45%] motion-reduce:animate-none md:object-[70%_center]"
         src={image}
         alt={alt}
         fill
@@ -48,13 +48,14 @@ export default function SplitHero({
         sizes="100vw"
       />
 
-      {/* Paper fade */}
-      <div className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,#f5f2ebf7_0%,#f5f2ebe0_60%,#f5f2ebc7_100%)] md:bg-[linear-gradient(90deg,#f5f2eb_0%,#f5f2ebf0_32%,#f5f2eb99_52%,transparent_78%)]" />
+      {/* Mobile: dark shade for white text. md+: paper fade on the text side */}
+      <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,#070a0de0,#070a0d80_55%,#070a0d1a)] md:bg-[linear-gradient(90deg,#f5f2eb_0%,#f5f2ebf0_32%,#f5f2eb99_52%,transparent_78%)]" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#070a0d99] to-transparent to-60% md:hidden" />
 
       {/* Kicker */}
-      <div className="flex animate-fade-up items-center gap-4 text-[9px] font-bold tracking-[3px] text-rust uppercase [animation-delay:100ms]">
+      <div className="flex animate-fade-up items-center gap-4 text-[9px] font-bold tracking-[3px] text-amber uppercase [animation-delay:100ms] md:text-rust">
         {kicker}
-        <span className="block h-px w-10 origin-left animate-draw-x bg-rust [animation-delay:450ms]" />
+        <span className="block h-px w-10 origin-left animate-draw-x bg-amber [animation-delay:450ms] md:bg-rust" />
       </div>
 
       {/* Heading */}
@@ -63,7 +64,7 @@ export default function SplitHero({
           <MaskLine
             key={line.text}
             delay={200 + index * 140}
-            className={line.accent ? "text-orange italic" : ""}
+            className={line.accent ? "text-[#f18a2d] italic md:text-orange" : ""}
           >
             {line.text}
           </MaskLine>
@@ -74,7 +75,7 @@ export default function SplitHero({
       {breadcrumb && breadcrumb.length > 0 && (
         <nav
           aria-label="Breadcrumb"
-          className="mt-5 flex animate-fade-up flex-wrap items-center gap-2 text-[11px] font-medium tracking-[1.5px] text-ink/70 [animation-delay:750ms]"
+          className="mt-5 flex animate-fade-up flex-wrap items-center gap-2 text-[11px] font-medium tracking-[1.5px] text-white/70 [animation-delay:750ms] md:text-ink/70"
         >
           {breadcrumb.map((item, index) => {
             const isLast = index === breadcrumb.length - 1;
@@ -82,7 +83,7 @@ export default function SplitHero({
             return (
               <span key={`${item.label}-${index}`} className="flex items-center gap-2">
                 {index > 0 && (
-                  <span aria-hidden="true" className="text-ink/40">
+                  <span aria-hidden="true" className="text-white/40 md:text-ink/40">
                     /
                   </span>
                 )}
@@ -92,7 +93,7 @@ export default function SplitHero({
                     {item.label}
                   </Link>
                 ) : (
-                  <span aria-current={isLast ? "page" : undefined} className={isLast ? "font-semibold text-ink" : ""}>
+                  <span aria-current={isLast ? "page" : undefined} className={isLast ? "font-semibold text-white md:text-ink" : ""}>
                     {item.label}
                   </span>
                 )}

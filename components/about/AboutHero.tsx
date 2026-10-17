@@ -26,7 +26,7 @@ export default function AboutHero() {
   }, [current, slides.length]);
 
   return (
-    <section className="relative isolate flex h-[440px] items-center overflow-hidden bg-[#0b0f12] text-white md:h-[420px] lg:h-[460px]">
+    <section className="relative isolate flex min-h-[300px] items-end overflow-hidden bg-[#0b0f12] text-white md:h-[420px] md:items-center lg:h-[460px]">
       {/* Crossfading slides with a slow Ken Burns drift on the active one */}
       {slides.map((s, i) => (
         <div
@@ -48,22 +48,22 @@ export default function AboutHero() {
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,#070a0dd9_0%,#070a0d8c_42%,#070a0d1a_75%)]" />
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#070a0d99] to-transparent to-50%" />
 
-      <div className="px-6 md:px-[6%]">
+      <div className="px-6 pt-20 pb-[46px] md:px-[6%] md:py-0">
         <div className="flex animate-fade-up items-center gap-4 text-[9px] font-bold tracking-[3px] text-amber [animation-delay:150ms]">
           MY STORY
           <span className="block h-px w-10 origin-left animate-draw-x bg-amber [animation-delay:500ms]" />
         </div>
 
         <h2 className="mt-5 font-serif font-normal tracking-[-2px]">
-          <Line delay="[animation-delay:250ms]" className="text-[clamp(46px,6vw,72px)] leading-[1]">A life</Line>
-          <Line delay="[animation-delay:420ms]" className="-ml-1 text-[clamp(52px,7vw,84px)] leading-[1] text-orange italic">
+          <Line delay="[animation-delay:250ms]" className="text-[40px] leading-[1] md:text-[clamp(46px,6vw,72px)]">A life</Line>
+          <Line delay="[animation-delay:420ms]" className="-ml-1 text-[44px] leading-[1] text-orange italic md:text-[clamp(52px,7vw,84px)]">
             in frames.
           </Line>
         </h2>
 
             <nav
             aria-label="Breadcrumb"
-            className="mb-6 flex items-center gap-2 text-[10px] tracking-[1.5px] text-white/70 mt-5"
+            className="mt-5 flex items-center gap-2 text-[10px] tracking-[1.5px] text-white/70 md:mb-6"
           >
         <a href="/" className="transition-colors hover:text-[#f18a2d]">
           HOME
